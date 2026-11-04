@@ -1,0 +1,91 @@
+================================================================================
+GITHUB REPOSITORY CONFIGURATION & SEO RANKING SPECIFICATION
+Project: EduFlow OS™ - Online Tutoring Marketplace & Live Classes Monolith
+Author: Imran Ahmed <me@imrandev.bd> | Website: https://imrandev.bd
+================================================================================
+
+--------------------------------------------------------------------------------
+1. BEST GITHUB REPOSITORY NAME (PRIMARY RECOMMENDATION)
+--------------------------------------------------------------------------------
+online-tutoring-marketplace-live-classes
+
+Alternative Options:
+• online-tutoring-marketplace-booking-and-live-classes (Exact workspace match)
+• online-tutoring-marketplace (Highest-volume broad search term)
+• eduflow-online-tutoring-marketplace (Branded + category match)
+
+Why "online-tutoring-marketplace-live-classes" is the #1 Best Name:
+1. Exact Search Intent: Combines the two highest-volume, highest-commercial intent search phrases: "online tutoring marketplace" and "live classes".
+2. Tokenized Indexing: Both Google and GitHub search algorithms tokenize repository slugs by hyphens. This slug guarantees exact keyword matches for queries containing "online tutoring", "tutoring marketplace", and "live classes".
+3. High CTR & Clean Formatting: Avoids filler stop-words like "and", staying clean, professional, and memorable.
+
+--------------------------------------------------------------------------------
+2. EXACT 400-CHARACTER REPOSITORY DESCRIPTION (FOR ORGANIC SEARCH & SEO)
+--------------------------------------------------------------------------------
+Enterprise online tutoring marketplace and live classes platform built with Laravel 11 & Filament. Features multi-timezone tutor booking, real-time WebRTC 1080p video classrooms, interactive math whiteboard, automated escrow wallet payments, LMS courses, biometric attendance, guardian portals, and AI grading. Turnkey self-hosted modular EdTech engine to launch your scalable Preply or Cambly clone.
+
+Character Count Verification:
+• Total Characters: 400 (including spaces and punctuation)
+• Total Words: 53
+• Keyword Density: 100% targeted high-intent commercial & technical keywords
+
+--------------------------------------------------------------------------------
+3. GITHUB WEB UI COMPATIBLE DESCRIPTION (UNDER 350 CHARACTERS)
+--------------------------------------------------------------------------------
+Enterprise online tutoring marketplace and live classes platform built with Laravel 11 & Filament. Features multi-timezone tutor booking, WebRTC 1080p video classrooms, interactive math whiteboard, escrow wallet payments, LMS courses, biometric attendance & AI grading. Turnkey self-hosted EdTech engine to launch a Preply or Cambly clone.
+
+Character Count: 339 characters (Fits GitHub UI 350-character limit without truncation)
+
+--------------------------------------------------------------------------------
+4. GOOGLE SERP META SNIPPET (EXACTLY 160 CHARACTERS)
+--------------------------------------------------------------------------------
+Self-hosted online tutoring marketplace & live classes platform with WebRTC video, tutor booking, whiteboard & escrow payments built with Laravel 11 & Filament.
+
+Character Count: 160 characters (Optimal Google SERP snippet display without ellipses)
+
+--------------------------------------------------------------------------------
+5. RECOMMENDED GITHUB TOPICS / TAGS (MAXIMUM 20 DISCOVERY TAGS)
+--------------------------------------------------------------------------------
+tutoring-marketplace, online-tutoring, tutor-booking, live-classes, virtual-classroom, webrtc, interactive-whiteboard, laravel, laravel11, filament, filamentphp, lms, edtech, preply-clone, cambly-clone, escrow-system, multi-tenant, modular-monolith, video-conferencing, education-platform
+
+--------------------------------------------------------------------------------
+6. TARGET SEARCH QUERIES MATRIX (ORGANIC GOOGLE & GITHUB RANKINGS)
+--------------------------------------------------------------------------------
+Our repository is optimized to rank in Top 1-5 results for the following user searches:
+
+Primary Commercial & Open Source Queries:
+• "online tutoring marketplace"
+• "online tutoring marketplace live classes"
+• "tutor booking platform open source"
+• "tutoring marketplace script laravel"
+• "virtual classroom webrtc laravel"
+• "preply clone laravel"
+• "cambly clone script"
+• "wyzant clone open source"
+• "self-hosted tutoring platform"
+• "tutor booking and live classes system"
+
+Technical & Architecture Queries:
+• "laravel 11 tutoring marketplace"
+• "filament v3 tutor booking"
+• "webrtc whiteboard tutoring php"
+• "modular monolith laravel edtech"
+• "multi tenant tutoring saas"
+• "escrow payment wallet laravel"
+• "biometric attendance edtech"
+
+--------------------------------------------------------------------------------
+7. WHY THIS OPTIMIZATION RANKS #1 ORGANICALLY
+--------------------------------------------------------------------------------
+1. Slug Keyword Matching: GitHub URLs (github.com/username/repo-name) pass heavy domain authority to the repo slug. The phrase "online-tutoring-marketplace-live-classes" captures both broad and long-tail searches.
+2. Search Query Inverted Index: GitHub Search searches repository names, descriptions, and README headings. By matching exact phrases ("online tutoring marketplace", "live classes", "WebRTC", "tutor booking"), the algorithm assigns maximum relevance score.
+3. Competitor Clone Intent: Searchers frequently look for "Preply clone" or "Cambly clone" when seeking commercial tutoring marketplace code. Mentioning these high-volume keywords captures valuable organic acquisition traffic.
+4. Framework Alignment: Including "Laravel 11" and "Filament" captures the vast developer community seeking production-grade Laravel solutions.
+
+--------------------------------------------------------------------------------
+8. GITHUB ACTIONS POLICY
+--------------------------------------------------------------------------------
+• Status: DISABLED
+• Policy: GitHub Actions are disabled for this project as no CI/CD action workflows are required.
+• Repository Setting: Under Settings -> Actions -> General -> Select "Disable actions".
+================================================================================
