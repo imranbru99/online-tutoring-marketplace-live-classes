@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="1200" height="680">
+  <defs>
+    <linearGradient id="aiBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14" />
+      <stop offset="50%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.98" />
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+    <filter id="shadowGlow">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="680" fill="url(#aiBg)" />
+
+  <!-- TOP HEADER -->
+  <rect width="1200" height="60" fill="#0B1120" stroke="#1E293B" stroke-width="1" />
+  <g transform="translate(30, 18)">
+    <circle cx="12" cy="12" r="10" fill="url(#purpleGrad)" />
+    <text x="32" y="17" fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="800">EduFlow OS™ AI Hub &amp; Autonomous Intelligence Suite</text>
+    <rect x="490" y="2" width="125" height="20" rx="10" fill="#1E3A8A" />
+    <text x="552" y="16" text-anchor="middle" fill="#93C5FD" font-family="sans-serif" font-size="11" font-weight="700">MULTI-LLM ROUTER</text>
+    <rect x="625" y="2" width="135" height="20" rx="10" fill="#065F46" />
+    <text x="692" y="16" text-anchor="middle" fill="#6EE7B7" font-family="sans-serif" font-size="11" font-weight="700">FAILOVER ACTIVE: 99.99%</text>
+  </g>
+
+  <g transform="translate(1000, 16)">
+    <rect width="170" height="28" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <circle cx="15" cy="14" r="4" fill="#10B981" />
+    <text x="26" y="18" fill="#F8FAFC" font-family="sans-serif" font-size="11" font-weight="600">Total Tokens: 4.82M / mo</text>
+  </g>
+
+  <!-- LEFT PANEL: MULTI-PROVIDER GATEWAY & LOAD BALANCING (WIDTH 360) -->
+  <g transform="translate(30, 80)">
+    <rect width="360" height="570" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.2" filter="url(#shadowGlow)" />
+    
+    <!-- Title -->
+    <text x="20" y="32" fill="#F1F5F9" font-family="sans-serif" font-size="14" font-weight="700">🤖 Multi-Provider LLM Gateway</text>
+    <text x="20" y="50" fill="#94A3B8" font-family="sans-serif" font-size="11">Automated failover, latency routing &amp; cost caps</text>
+    <line x1="20" y1="62" x2="340" y2="62" stroke="#334155" stroke-width="1" />
+
+    <!-- Provider 1: Gemini 2.0 Flash -->
+    <g transform="translate(20, 75)">
+      <rect width="320" height="70" rx="8" fill="#0F172A" stroke="#2563EB" stroke-width="1.5" />
+      <circle cx="20" cy="22" r="5" fill="#10B981" />
+      <text x="32" y="25" fill="#FFFFFF" font-family="sans-serif" font-size="12" font-weight="700">Google Gemini 2.0 Flash</text>
+      <rect x="235" y="12" width="70" height="18" rx="4" fill="#1E3A8A" />
+      <text x="270" y="25" text-anchor="middle" fill="#93C5FD" font-family="sans-serif" font-size="10" font-weight="700">PRIMARY</text>
+      <text x="20" y="46" fill="#94A3B8" font-family="sans-serif" font-size="11">Speed: <tspan fill="#34D399" font-weight="700">115 t/s</tspan> | Latency: 180ms | Cost: $0.10/M</text>
+      <rect x="20" y="54" width="280" height="4" rx="2" fill="#1E293B" />
+      <rect x="20" y="54" width="240" height="4" rx="2" fill="#3B82F6" />
+    </g>
+
+    <!-- Provider 2: OpenAI GPT-4o -->
+    <g transform="translate(20, 155)">
+      <rect width="320" height="70" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1" />
+      <circle cx="20" cy="22" r="5" fill="#10B981" />
+      <text x="32" y="25" fill="#FFFFFF" font-family="sans-serif" font-size="12" font-weight="700">OpenAI GPT-4o</text>
+      <rect x="235" y="12" width="70" height="18" rx="4" fill="#374151" />
+      <text x="270" y="25" text-anchor="middle" fill="#D1D5DB" font-family="sans-serif" font-size="10" font-weight="700">FALLBACK 1</text>
+      <text x="20" y="46" fill="#94A3B8" font-family="sans-serif" font-size="11">Speed: 82 t/s | Latency: 320ms | Cost: $2.50/M</text>
+      <rect x="20" y="54" width="280" height="4" rx="2" fill="#1E293B" />
+      <rect x="20" y="54" width="180" height="4" rx="2" fill="#10B981" />
+    </g>
+
+    <!-- Provider 3: Claude 3.5 Sonnet -->
+    <g transform="translate(20, 235)">
+      <rect width="320" height="70" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1" />
+      <circle cx="20" cy="22" r="5" fill="#10B981" />
+      <text x="32" y="25" fill="#FFFFFF" font-family="sans-serif" font-size="12" font-weight="700">Anthropic Claude 3.5 Sonnet</text>
+      <rect x="235" y="12" width="70" height="18" rx="4" fill="#374151" />
+      <text x="270" y="25" text-anchor="middle" fill="#D1D5DB" font-family="sans-serif" font-size="10" font-weight="700">FALLBACK 2</text>
+      <text x="20" y="46" fill="#94A3B8" font-family="sans-serif" font-size="11">Speed: 74 t/s | Complex Reasoning &amp; Code</text>
+      <rect x="20" y="54" width="280" height="4" rx="2" fill="#1E293B" />
+      <rect x="20" y="54" width="130" height="4" rx="2" fill="#F59E0B" />
+    </g>
+
+    <!-- Provider 4: DeepSeek-R1 -->
+    <g transform="translate(20, 315)">
+      <rect width="320" height="70" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1" />
+      <circle cx="20" cy="22" r="5" fill="#10B981" />
+      <text x="32" y="25" fill="#FFFFFF" font-family="sans-serif" font-size="12" font-weight="700">DeepSeek-R1 (Reasoning)</text>
+      <rect x="235" y="12" width="70" height="18" rx="4" fill="#4C1D95" />
+      <text x="270" y="25" text-anchor="middle" fill="#C4B5FD" font-family="sans-serif" font-size="10" font-weight="700">MATH EXPERT</text>
+      <text x="20" y="46" fill="#94A3B8" font-family="sans-serif" font-size="11">Speed: 65 t/s | Chain-of-Thought Math Solver</text>
+      <rect x="20" y="54" width="280" height="4" rx="2" fill="#1E293B" />
+      <rect x="20" y="54" width="210" height="4" rx="2" fill="#A855F7" />
+    </g>
+
+    <!-- Provider 5: Local Ollama & Groq -->
+    <g transform="translate(20, 395)">
+      <rect width="320" height="70" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1" />
+      <circle cx="20" cy="22" r="5" fill="#10B981" />
+      <text x="32" y="25" fill="#FFFFFF" font-family="sans-serif" font-size="12" font-weight="700">Local Ollama / Groq LPU</text>
+      <rect x="235" y="12" width="70" height="18" rx="4" fill="#065F46" />
+      <text x="270" y="25" text-anchor="middle" fill="#6EE7B7" font-family="sans-serif" font-size="10" font-weight="700">ZERO COST</text>
+      <text x="20" y="46" fill="#94A3B8" font-family="sans-serif" font-size="11">Air-Gapped Private Campus Server Mode</text>
+      <rect x="20" y="54" width="280" height="4" rx="2" fill="#1E293B" />
+      <rect x="20" y="54" width="260" height="4" rx="2" fill="#10B981" />
+    </g>
+
+    <!-- Budget & Health Metric -->
+    <g transform="translate(20, 480)">
+      <rect width="320" height="70" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1" />
+      <text x="15" y="24" fill="#94A3B8" font-family="sans-serif" font-size="11" font-weight="600">MONTHLY BUDGET GUARDRAIL</text>
+      <text x="15" y="46" fill="#38BDF8" font-family="sans-serif" font-size="18" font-weight="800">$18.42 <tspan fill="#64748B" font-size="12" font-weight="400">/ $100.00 Limit</tspan></text>
+      <rect x="210" y="22" width="95" height="26" rx="6" fill="#0284C7" />
+      <text x="257" y="39" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="11" font-weight="700">⚙️ Prompts</text>
+    </g>
+  </g>
+
+  <!-- CENTER-RIGHT TOP: 24/7 AUTONOMOUS AI TUTOR SOCRATIC PLAYGROUND (WIDTH 760, HEIGHT 320) -->
+  <g transform="translate(410, 80)">
+    <rect width="760" height="320" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.2" filter="url(#shadowGlow)" />
+    
+    <!-- Header -->
+    <g transform="translate(25, 20)">
+      <rect width="40" height="40" rx="10" fill="url(#purpleGrad)" />
+      <text x="20" y="26" text-anchor="middle" fill="#FFFFFF" font-size="20">✨</text>
+      <text x="52" y="20" fill="#F8FAFC" font-family="sans-serif" font-size="15" font-weight="700">Autonomous Socratic AI Tutor — Live Homework Solver</text>
+      <text x="52" y="36" fill="#34D399" font-family="sans-serif" font-size="11" font-weight="600">● Interactive 24/7 Student Co-Pilot | Subject: AP Calculus BC</text>
+    </g>
+    <line x1="25" y1="72" x2="735" y2="72" stroke="#334155" stroke-width="1" />
+
+    <!-- Chat Message: Student -->
+    <g transform="translate(25, 85)">
+      <circle cx="16" cy="16" r="16" fill="#3B82F6" />
+      <text x="16" y="21" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="12" font-weight="700">S</text>
+      <rect x="42" y="0" width="670" height="46" rx="8" fill="#1E293B" />
+      <text x="56" y="20" fill="#E2E8F0" font-family="sans-serif" font-size="12" font-weight="600">Student (Sarah M.): <tspan font-weight="400">Can you explain how to solve the integral ∫ x · e^(2x) dx using integration by parts?</tspan></text>
+      <text x="56" y="36" fill="#64748B" font-family="sans-serif" font-size="10">2:14 PM · Mobile PWA App</text>
+    </g>
+
+    <!-- Chat Message: AI Tutor Socratic Step-by-Step Response -->
+    <g transform="translate(25, 142)">
+      <circle cx="16" cy="16" r="16" fill="url(#purpleGrad)" />
+      <text x="16" y="21" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="12" font-weight="700">AI</text>
+      <rect x="42" y="0" width="670" height="155" rx="8" fill="#090D16" stroke="#4C1D95" stroke-width="1.2" />
+      <text x="56" y="22" fill="#A78BFA" font-family="sans-serif" font-size="12" font-weight="700">EduFlow AI Tutor (Socratic Mode):</text>
+      <text x="56" y="42" fill="#CBD5E1" font-family="sans-serif" font-size="12">Let's use LIATE rule to assign <tspan fill="#38BDF8" font-weight="700">u</tspan> and <tspan fill="#F472B6" font-weight="700">dv</tspan>:</text>
+      <text x="70" y="64" fill="#38BDF8" font-family="'Courier New', monospace" font-size="12" font-weight="700">1. Let u = x   ==>  du = dx</text>
+      <text x="70" y="82" fill="#F472B6" font-family="'Courier New', monospace" font-size="12" font-weight="700">2. Let dv = e^(2x) dx   ==>  v = (1/2) e^(2x)</text>
+      <text x="56" y="104" fill="#CBD5E1" font-family="sans-serif" font-size="12">Applying formula <tspan fill="#FBBF24" font-weight="700">∫ u dv = u·v - ∫ v du</tspan>:</text>
+      <text x="70" y="124" fill="#34D399" font-family="'Courier New', monospace" font-size="13" font-weight="700">∫ x·e^(2x) dx = (1/2) x·e^(2x) - (1/4) e^(2x) + C = (1/4) e^(2x) (2x - 1) + C</text>
+      <rect x="56" y="132" width="130" height="18" rx="4" fill="#065F46" />
+      <text x="121" y="144" text-anchor="middle" fill="#6EE7B7" font-family="sans-serif" font-size="10" font-weight="700">✓ Step Verified by DeepSeek</text>
+    </g>
+  </g>
+
+  <!-- CENTER-RIGHT BOTTOM: AI CATALOG SYLLABUS SCRAPER & QUIZ ENGINE (WIDTH 760, HEIGHT 230) -->
+  <g transform="translate(410, 420)">
+    <rect width="760" height="230" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.2" filter="url(#shadowGlow)" />
+
+    <!-- Header -->
+    <g transform="translate(25, 20)">
+      <text x="0" y="15" fill="#F8FAFC" font-family="sans-serif" font-size="14" font-weight="700">📚 AI Curriculum Scraper &amp; Automated Exam Generator</text>
+      <text x="0" y="32" fill="#94A3B8" font-family="sans-serif" font-size="11">Powered by imrandevbd/laravel-ai-catalog • Scraping national &amp; international boards into standard taxonomies</text>
+    </g>
+    <rect x="610" y="16" width="125" height="26" rx="6" fill="#4F46E5" />
+    <text x="672" y="33" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="11" font-weight="700">⚡ Run Scraper</text>
+    <line x1="25" y1="58" x2="735" y2="58" stroke="#334155" stroke-width="1" />
+
+    <!-- 3 Scraper Cards -->
+    <g transform="translate(25, 70)">
+      <!-- Card 1 -->
+      <rect width="225" height="135" rx="8" fill="#0B1120" stroke="#1E293B" stroke-width="1" />
+      <rect x="12" y="12" width="60" height="18" rx="4" fill="#065F46" />
+      <text x="42" y="24" text-anchor="middle" fill="#34D399" font-family="sans-serif" font-size="10" font-weight="700">CAMBRIDGE</text>
+      <text x="12" y="48" fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="700">IGCSE Physics 0625</text>
+      <text x="12" y="66" fill="#94A3B8" font-family="sans-serif" font-size="11">5 Units · 42 Learning Goals</text>
+      <text x="12" y="86" fill="#38BDF8" font-family="sans-serif" font-size="11">✓ 180 Mock Quizzes Built</text>
+      <rect x="12" y="98" width="201" height="24" rx="4" fill="#1E293B" />
+      <text x="112" y="114" text-anchor="middle" fill="#E2E8F0" font-family="sans-serif" font-size="11" font-weight="600">Sync with Classes →</text>
+    </g>
+
+    <g transform="translate(270, 70)">
+      <!-- Card 2 -->
+      <rect width="225" height="135" rx="8" fill="#0B1120" stroke="#1E293B" stroke-width="1" />
+      <rect x="12" y="12" width="60" height="18" rx="4" fill="#1E3A8A" />
+      <text x="42" y="24" text-anchor="middle" fill="#60A5FA" font-family="sans-serif" font-size="10" font-weight="700">COLLEGE BD</text>
+      <text x="12" y="48" fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="700">AP Biology 2026</text>
+      <text x="12" y="66" fill="#94A3B8" font-family="sans-serif" font-size="11">8 Units · 84 Subtopics</text>
+      <text x="12" y="86" fill="#38BDF8" font-family="sans-serif" font-size="11">✓ AI Rubric &amp; Grading Rules</text>
+      <rect x="12" y="98" width="201" height="24" rx="4" fill="#1E293B" />
+      <text x="112" y="114" text-anchor="middle" fill="#E2E8F0" font-family="sans-serif" font-size="11" font-weight="600">Generate Mock Test →</text>
+    </g>
+
+    <g transform="translate(515, 70)">
+      <!-- Card 3 -->
+      <rect width="220" height="135" rx="8" fill="#0B1120" stroke="#1E293B" stroke-width="1" />
+      <rect x="12" y="12" width="75" height="18" rx="4" fill="#4C1D95" />
+      <text x="49" y="24" text-anchor="middle" fill="#C4B5FD" font-family="sans-serif" font-size="10" font-weight="700">IELTS / TOEFL</text>
+      <text x="12" y="48" fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="700">Academic Band 8.5</text>
+      <text x="12" y="66" fill="#94A3B8" font-family="sans-serif" font-size="11">4 Skills · Speaking Co-Pilot</text>
+      <text x="12" y="86" fill="#38BDF8" font-family="sans-serif" font-size="11">✓ Phonetic Accent Feedback</text>
+      <rect x="12" y="98" width="196" height="24" rx="4" fill="#1E293B" />
+      <text x="110" y="114" text-anchor="middle" fill="#E2E8F0" font-family="sans-serif" font-size="11" font-weight="600">Launch Audio Test →</text>
+    </g>
+  </g>
+</svg>

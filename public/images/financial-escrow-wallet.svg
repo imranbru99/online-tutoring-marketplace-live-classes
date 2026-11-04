@@ -1,0 +1,234 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="1200" height="680">
+  <defs>
+    <linearGradient id="finBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060911" />
+      <stop offset="50%" stop-color="#0D1527" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.98" />
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+    <filter id="cardShadow">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="680" fill="url(#finBg)" />
+
+  <!-- TOP HEADER -->
+  <rect width="1200" height="60" fill="#0B1120" stroke="#1E293B" stroke-width="1" />
+  <g transform="translate(30, 18)">
+    <circle cx="12" cy="12" r="10" fill="url(#emeraldGrad)" />
+    <text x="32" y="17" fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="800">EduFlow OS™ Automated Escrow, Multi-Currency Wallets &amp; Commission Engine</text>
+    <rect x="740" y="2" width="130" height="20" rx="10" fill="#065F46" />
+    <text x="805" y="16" text-anchor="middle" fill="#6EE7B7" font-family="sans-serif" font-size="11" font-weight="700">ESCROW PROTECTED</text>
+    <rect x="880" y="2" width="130" height="20" rx="10" fill="#1E3A8A" />
+    <text x="945" y="16" text-anchor="middle" fill="#93C5FD" font-family="sans-serif" font-size="11" font-weight="700">MULTI-GATEWAY</text>
+  </g>
+
+  <!-- TOP 4 METRICS CARDS -->
+  <g transform="translate(30, 80)">
+    <!-- Metric 1: Total Platform GMV -->
+    <rect width="265" height="90" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.2" filter="url(#cardShadow)" />
+    <text x="18" y="28" fill="#94A3B8" font-family="sans-serif" font-size="12" font-weight="600">30-DAY GROSS REVENUE (GMV)</text>
+    <text x="18" y="60" fill="#F8FAFC" font-family="sans-serif" font-size="24" font-weight="800">$142,850.00</text>
+    <rect x="185" y="18" width="65" height="20" rx="10" fill="#065F46" />
+    <text x="217" y="32" text-anchor="middle" fill="#34D399" font-family="sans-serif" font-size="11" font-weight="700">↑ +28.4%</text>
+
+    <!-- Metric 2: Escrow Locked Funds -->
+    <g transform="translate(290, 0)">
+      <rect width="265" height="90" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.2" filter="url(#cardShadow)" />
+      <text x="18" y="28" fill="#94A3B8" font-family="sans-serif" font-size="12" font-weight="600">CURRENT ESCROW LOCKED</text>
+      <text x="18" y="60" fill="#FBBF24" font-family="sans-serif" font-size="24" font-weight="800">$29,410.50</text>
+      <text x="18" y="78" fill="#64748B" font-family="sans-serif" font-size="11">Secured across 418 upcoming sessions</text>
+    </g>
+
+    <!-- Metric 3: Net Marketplace Commission -->
+    <g transform="translate(580, 0)">
+      <rect width="265" height="90" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.2" filter="url(#cardShadow)" />
+      <text x="18" y="28" fill="#94A3B8" font-family="sans-serif" font-size="12" font-weight="600">NET PLATFORM TAKE-RATE (20%)</text>
+      <text x="18" y="60" fill="#34D399" font-family="sans-serif" font-size="24" font-weight="800">$28,570.00</text>
+      <text x="18" y="78" fill="#10B981" font-family="sans-serif" font-size="11">Automated zero-touch collection</text>
+    </g>
+
+    <!-- Metric 4: Payouts Executed -->
+    <g transform="translate(870, 0)">
+      <rect width="270" height="90" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.2" filter="url(#cardShadow)" />
+      <text x="18" y="28" fill="#94A3B8" font-family="sans-serif" font-size="12" font-weight="600">TUTOR DISBURSEMENTS</text>
+      <text x="18" y="60" fill="#60A5FA" font-family="sans-serif" font-size="24" font-weight="800">$114,280.00</text>
+      <text x="18" y="78" fill="#64748B" font-family="sans-serif" font-size="11">Stripe Connect / Wise / bKash</text>
+    </g>
+  </g>
+
+  <!-- ESCROW LIFECYCLE FLOWCHART (WIDTH 1140, HEIGHT 140) -->
+  <g transform="translate(30, 190)">
+    <rect width="1140" height="135" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.2" filter="url(#cardShadow)" />
+    <text x="25" y="28" fill="#F8FAFC" font-family="sans-serif" font-size="14" font-weight="700">🔒 Trustless Escrow &amp; Commission Settlement Lifecycle</text>
+    <text x="25" y="44" fill="#94A3B8" font-family="sans-serif" font-size="11">100% automated handling prevents tutor no-shows, chargebacks, and manual bookkeeping</text>
+
+    <!-- Step 1 -->
+    <g transform="translate(25, 58)">
+      <rect width="200" height="60" rx="8" fill="#0F172A" stroke="#3B82F6" stroke-width="1" />
+      <circle cx="20" cy="30" r="12" fill="#1E3A8A" />
+      <text x="20" y="34" text-anchor="middle" fill="#93C5FD" font-family="sans-serif" font-size="12" font-weight="700">1</text>
+      <text x="42" y="26" fill="#FFFFFF" font-family="sans-serif" font-size="12" font-weight="700">Student Books Class</text>
+      <text x="42" y="42" fill="#94A3B8" font-family="sans-serif" font-size="11">Card/Wallet debited</text>
+    </g>
+
+    <!-- Arrow 1 -->
+    <text x="245" y="93" fill="#64748B" font-size="18">→</text>
+
+    <!-- Step 2 -->
+    <g transform="translate(280, 58)">
+      <rect width="210" height="60" rx="8" fill="#0F172A" stroke="#F59E0B" stroke-width="1" />
+      <circle cx="20" cy="30" r="12" fill="#78350F" />
+      <text x="20" y="34" text-anchor="middle" fill="#FDE68A" font-family="sans-serif" font-size="12" font-weight="700">2</text>
+      <text x="42" y="26" fill="#FFFFFF" font-family="sans-serif" font-size="12" font-weight="700">Funds Held in Escrow</text>
+      <text x="42" y="42" fill="#FBBF24" font-family="sans-serif" font-size="11">Locked in vault database</text>
+    </g>
+
+    <!-- Arrow 2 -->
+    <text x="510" y="93" fill="#64748B" font-size="18">→</text>
+
+    <!-- Step 3 -->
+    <g transform="translate(545, 58)">
+      <rect width="220" height="60" rx="8" fill="#0F172A" stroke="#8B5CF6" stroke-width="1" />
+      <circle cx="20" cy="30" r="12" fill="#4C1D95" />
+      <text x="20" y="34" text-anchor="middle" fill="#DDD6FE" font-family="sans-serif" font-size="12" font-weight="700">3</text>
+      <text x="42" y="26" fill="#FFFFFF" font-family="sans-serif" font-size="12" font-weight="700">Live Session Verified</text>
+      <text x="42" y="42" fill="#C4B5FD" font-family="sans-serif" font-size="11">WebRTC attendance ping</text>
+    </g>
+
+    <!-- Arrow 3 -->
+    <text x="785" y="93" fill="#64748B" font-size="18">→</text>
+
+    <!-- Step 4 -->
+    <g transform="translate(820, 58)">
+      <rect width="295" height="60" rx="8" fill="#0F172A" stroke="#10B981" stroke-width="1.5" />
+      <circle cx="20" cy="30" r="12" fill="#065F46" />
+      <text x="20" y="34" text-anchor="middle" fill="#A7F3D0" font-family="sans-serif" font-size="12" font-weight="700">4</text>
+      <text x="42" y="26" fill="#FFFFFF" font-family="sans-serif" font-size="12" font-weight="700">Auto Split: 80% Tutor / 20% Admin</text>
+      <text x="42" y="42" fill="#34D399" font-family="sans-serif" font-size="11">1-Click instant payout &amp; PDF invoice</text>
+    </g>
+  </g>
+
+  <!-- BOTTOM TWO COLUMNS: LIVE TRANSACTIONS LEDGER & DISPUTE RESOLUTION -->
+  <g transform="translate(30, 345)">
+    <!-- LEFT: REAL-TIME MULTI-CURRENCY LEDGER TABLE (WIDTH 680) -->
+    <rect width="680" height="305" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.2" filter="url(#cardShadow)" />
+    <g transform="translate(20, 20)">
+      <text x="0" y="15" fill="#F8FAFC" font-family="sans-serif" font-size="14" font-weight="700">💳 Live Transaction &amp; Escrow Ledger</text>
+      <text x="0" y="32" fill="#94A3B8" font-family="sans-serif" font-size="11">Automated multi-currency ledger with localized tax invoicing</text>
+    </g>
+    <rect x="540" y="20" width="120" height="26" rx="6" fill="#1E293B" stroke="#475569" stroke-width="1" />
+    <text x="600" y="37" text-anchor="middle" fill="#E2E8F0" font-family="sans-serif" font-size="11" font-weight="600">Export Excel ⤓</text>
+    <line x1="20" y1="62" x2="660" y2="62" stroke="#334155" stroke-width="1" />
+
+    <!-- Table Header -->
+    <g transform="translate(20, 78)">
+      <text x="5" y="0" fill="#64748B" font-family="sans-serif" font-size="11" font-weight="700">TRANSACTION / ID</text>
+      <text x="210" y="0" fill="#64748B" font-family="sans-serif" font-size="11" font-weight="700">TOTAL</text>
+      <text x="290" y="0" fill="#64748B" font-family="sans-serif" font-size="11" font-weight="700">PLATFORM (20%)</text>
+      <text x="420" y="0" fill="#64748B" font-family="sans-serif" font-size="11" font-weight="700">TUTOR (80%)</text>
+      <text x="550" y="0" fill="#64748B" font-family="sans-serif" font-size="11" font-weight="700">STATUS</text>
+    </g>
+    <line x1="20" y1="88" x2="660" y2="88" stroke="#1E293B" stroke-width="1" />
+
+    <!-- Row 1 -->
+    <g transform="translate(20, 110)">
+      <text x="5" y="0" fill="#FFFFFF" font-family="sans-serif" font-size="12" font-weight="600">TX-9841 · AP Calculus (1h)</text>
+      <text x="5" y="15" fill="#64748B" font-family="sans-serif" font-size="10">Student: Liam H. → Tutor: Dr. Rostova</text>
+      <text x="210" y="6" fill="#F8FAFC" font-family="sans-serif" font-size="12" font-weight="700">$60.00</text>
+      <text x="290" y="6" fill="#34D399" font-family="sans-serif" font-size="12" font-weight="700">+$12.00</text>
+      <text x="420" y="6" fill="#93C5FD" font-family="sans-serif" font-size="12" font-weight="700">$48.00</text>
+      <rect x="545" y="-8" width="80" height="20" rx="4" fill="#065F46" />
+      <text x="585" y="6" text-anchor="middle" fill="#6EE7B7" font-family="sans-serif" font-size="10" font-weight="700">COMPLETED</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(20, 155)">
+      <text x="5" y="0" fill="#FFFFFF" font-family="sans-serif" font-size="12" font-weight="600">TX-9842 · IELTS Band 8.5 Prep</text>
+      <text x="5" y="15" fill="#64748B" font-family="sans-serif" font-size="10">Student: Maya K. → Tutor: James W.</text>
+      <text x="210" y="6" fill="#F8FAFC" font-family="sans-serif" font-size="12" font-weight="700">£45.00</text>
+      <text x="290" y="6" fill="#34D399" font-family="sans-serif" font-size="12" font-weight="700">+£9.00</text>
+      <text x="420" y="6" fill="#93C5FD" font-family="sans-serif" font-size="12" font-weight="700">£36.00</text>
+      <rect x="545" y="-8" width="80" height="20" rx="4" fill="#78350F" />
+      <text x="585" y="6" text-anchor="middle" fill="#FDE68A" font-family="sans-serif" font-size="10" font-weight="700">IN ESCROW</text>
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(20, 200)">
+      <text x="5" y="0" fill="#FFFFFF" font-family="sans-serif" font-size="12" font-weight="600">TX-9843 · HSC Physics Batch #12</text>
+      <text x="5" y="15" fill="#64748B" font-family="sans-serif" font-size="10">Student: Tanvir R. → Tutor: Campus Branch</text>
+      <text x="210" y="6" fill="#F8FAFC" font-family="sans-serif" font-size="12" font-weight="700">৳ 4,500</text>
+      <text x="290" y="6" fill="#34D399" font-family="sans-serif" font-size="12" font-weight="700">+৳ 900</text>
+      <text x="420" y="6" fill="#93C5FD" font-family="sans-serif" font-size="12" font-weight="700">৳ 3,600</text>
+      <rect x="545" y="-8" width="80" height="20" rx="4" fill="#065F46" />
+      <text x="585" y="6" text-anchor="middle" fill="#6EE7B7" font-family="sans-serif" font-size="10" font-weight="700">COMPLETED</text>
+    </g>
+
+    <!-- Row 4 -->
+    <g transform="translate(20, 245)">
+      <text x="5" y="0" fill="#FFFFFF" font-family="sans-serif" font-size="12" font-weight="600">TX-9844 · SAT Chemistry 10-Pack</text>
+      <text x="5" y="15" fill="#64748B" font-family="sans-serif" font-size="10">Guardian: Michael S. → Tutor: Elena R.</text>
+      <text x="210" y="6" fill="#F8FAFC" font-family="sans-serif" font-size="12" font-weight="700">$450.00</text>
+      <text x="290" y="6" fill="#34D399" font-family="sans-serif" font-size="12" font-weight="700">+$90.00</text>
+      <text x="420" y="6" fill="#93C5FD" font-family="sans-serif" font-size="12" font-weight="700">$360.00</text>
+      <rect x="545" y="-8" width="80" height="20" rx="4" fill="#78350F" />
+      <text x="585" y="6" text-anchor="middle" fill="#FDE68A" font-family="sans-serif" font-size="10" font-weight="700">IN ESCROW</text>
+    </g>
+  </g>
+
+  <!-- RIGHT: DISPUTE ARBITRATION & INVOICE PREVIEW (WIDTH 430) -->
+  <g transform="translate(740, 345)">
+    <rect width="430" height="305" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.2" filter="url(#cardShadow)" />
+    
+    <!-- Title -->
+    <g transform="translate(20, 20)">
+      <text x="0" y="15" fill="#F8FAFC" font-family="sans-serif" font-size="14" font-weight="700">⚖️ Dispute Mediation &amp; PDF Invoicing</text>
+      <text x="0" y="32" fill="#94A3B8" font-family="sans-serif" font-size="11">Formal arbitration panel &amp; tax-compliant Unicode PDFs</text>
+    </g>
+    <line x1="20" y1="58" x2="410" y2="58" stroke="#334155" stroke-width="1" />
+
+    <!-- Dispute Card -->
+    <g transform="translate(20, 72)">
+      <rect width="390" height="110" rx="8" fill="#0F172A" stroke="#EF4444" stroke-width="1" />
+      <rect x="12" y="10" width="75" height="18" rx="4" fill="#7F1D1D" />
+      <text x="49" y="22" text-anchor="middle" fill="#FCA5A5" font-family="sans-serif" font-size="10" font-weight="700">OPEN TICKET</text>
+      <text x="95" y="23" fill="#E2E8F0" font-family="sans-serif" font-size="11" font-weight="600">Case #D-104: Tutor Mic Disconnected</text>
+      <text x="12" y="48" fill="#94A3B8" font-family="sans-serif" font-size="11">Student requested full refund. WebRTC audio packet loss verified at 94%.</text>
+      <rect x="12" y="65" width="110" height="28" rx="6" fill="#10B981" />
+      <text x="67" y="83" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="11" font-weight="700">✓ Refund to Wallet</text>
+      <rect x="130" y="65" width="110" height="28" rx="6" fill="#3B82F6" />
+      <text x="185" y="83" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="11" font-weight="700">Reschedule Free</text>
+      <rect x="250" y="65" width="128" height="28" rx="6" fill="#1E293B" />
+      <text x="314" y="83" text-anchor="middle" fill="#D1D5DB" font-family="sans-serif" font-size="11" font-weight="600">Audit Logs</text>
+    </g>
+
+    <!-- PDF Tax Invoicing Highlight -->
+    <g transform="translate(20, 195)">
+      <rect width="390" height="92" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1" />
+      <circle cx="28" cy="30" r="14" fill="#312E81" />
+      <text x="28" y="34" text-anchor="middle" fill="#A5B4FC" font-size="14">📄</text>
+      <text x="52" y="26" fill="#FFFFFF" font-family="sans-serif" font-size="12" font-weight="700">Universal Unicode PDF Invoicing</text>
+      <text x="52" y="42" fill="#94A3B8" font-family="sans-serif" font-size="11">Bangla, Arabic RTL, Urdu &amp; CJK font shaping</text>
+      <text x="52" y="58" fill="#38BDF8" font-family="sans-serif" font-size="11">QR-code verifiable VAT tax receipt generated instantly</text>
+      <rect x="52" y="66" width="120" height="20" rx="4" fill="#1E293B" />
+      <text x="112" y="79" text-anchor="middle" fill="#60A5FA" font-family="sans-serif" font-size="10" font-weight="700">Download Sample PDF ↓</text>
+    </g>
+  </g>
+</svg>

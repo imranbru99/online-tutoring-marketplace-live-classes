@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="1200" height="680">
+  <defs>
+    <linearGradient id="hubBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14" />
+      <stop offset="50%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.98" />
+    </linearGradient>
+    <linearGradient id="cyanBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+    <linearGradient id="amberGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <filter id="hubShadow">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="680" fill="url(#hubBg)" />
+
+  <!-- TOP HEADER -->
+  <rect width="1200" height="60" fill="#0B1120" stroke="#1E293B" stroke-width="1" />
+  <g transform="translate(30, 18)">
+    <circle cx="12" cy="12" r="10" fill="url(#cyanBlue)" />
+    <text x="32" y="17" fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="800">EduFlow OS™ Hardware Biometric Gateway &amp; Guardian Safety Portal</text>
+    <rect x="710" y="2" width="135" height="20" rx="10" fill="#065F46" />
+    <text x="777" y="16" text-anchor="middle" fill="#6EE7B7" font-family="sans-serif" font-size="11" font-weight="700">TCP/IP ADMS SYNC</text>
+    <rect x="855" y="2" width="130" height="20" rx="10" fill="#1E3A8A" />
+    <text x="920" y="16" text-anchor="middle" fill="#93C5FD" font-family="sans-serif" font-size="11" font-weight="700">PARENT VERIFIED</text>
+  </g>
+
+  <!-- LEFT: PHYSICAL BIOMETRIC TURNSTILE & CAMPUS HARDWARE GATEWAY (WIDTH 560) -->
+  <g transform="translate(30, 80)">
+    <rect width="560" height="570" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.2" filter="url(#hubShadow)" />
+    
+    <g transform="translate(20, 22)">
+      <text x="0" y="15" fill="#F8FAFC" font-family="sans-serif" font-size="14" font-weight="700">🏢 Physical Branch Biometric Gateway (ZKTeco / RFID / Face ID)</text>
+      <text x="0" y="32" fill="#94A3B8" font-family="sans-serif" font-size="11">Powered by imrandevbd/laravel-attendance-hub • Zero roll-call, zero proxy attendance</text>
+    </g>
+    <line x1="20" y1="62" x2="540" y2="62" stroke="#334155" stroke-width="1" />
+
+    <!-- Connected Devices Status -->
+    <g transform="translate(20, 75)">
+      <rect width="520" height="65" rx="8" fill="#0F172A" stroke="#10B981" stroke-width="1.2" />
+      <circle cx="20" cy="22" r="5" fill="#10B981" />
+      <text x="32" y="25" fill="#FFFFFF" font-family="sans-serif" font-size="12" font-weight="700">Main Campus - North Gate RFID Turnstile #1</text>
+      <rect x="420" y="12" width="85" height="20" rx="4" fill="#065F46" />
+      <text x="462" y="26" text-anchor="middle" fill="#6EE7B7" font-family="sans-serif" font-size="10" font-weight="700">ONLINE (ADMS)</text>
+      <text x="20" y="46" fill="#94A3B8" font-family="sans-serif" font-size="11">IP: 192.168.10.45:4370 | Pings: 12ms | Device: ZKTeco uFace 800 Plus</text>
+    </g>
+
+    <g transform="translate(20, 150)">
+      <rect width="520" height="65" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1" />
+      <circle cx="20" cy="22" r="5" fill="#10B981" />
+      <text x="32" y="25" fill="#FFFFFF" font-family="sans-serif" font-size="12" font-weight="700">Science Lab 302 - Fingerprint Reader #4</text>
+      <rect x="420" y="12" width="85" height="20" rx="4" fill="#065F46" />
+      <text x="462" y="26" text-anchor="middle" fill="#6EE7B7" font-family="sans-serif" font-size="10" font-weight="700">ONLINE (ADMS)</text>
+      <text x="20" y="46" fill="#94A3B8" font-family="sans-serif" font-size="11">IP: 192.168.10.82:4370 | Pings: 18ms | Capacity: 3,000 prints</text>
+    </g>
+
+    <!-- Real-time Event Feed -->
+    <text x="20" y="240" fill="#E2E8F0" font-family="sans-serif" font-size="13" font-weight="700">⚡ Live Turnstile Punch Feed</text>
+    <g transform="translate(20, 255)">
+      <!-- Punch 1 -->
+      <rect width="520" height="50" rx="6" fill="#0B1120" stroke="#1E293B" stroke-width="1" />
+      <circle cx="18" cy="25" r="4" fill="#10B981" />
+      <text x="30" y="22" fill="#FFFFFF" font-family="sans-serif" font-size="12" font-weight="600">Tanvir Rahman (ID: STD-8491) - Batch #14 Physics</text>
+      <text x="30" y="38" fill="#34D399" font-family="sans-serif" font-size="11">Turnstile Clock-IN at 08:58:12 AM → Status: PRESENT (ON TIME)</text>
+      <rect x="415" y="14" width="90" height="22" rx="4" fill="#1E293B" />
+      <text x="460" y="29" text-anchor="middle" fill="#93C5FD" font-family="sans-serif" font-size="10" font-weight="700">SMS Sent</text>
+    </g>
+
+    <g transform="translate(20, 315)">
+      <!-- Punch 2 (Absent / Auto Fallback) -->
+      <rect width="520" height="50" rx="6" fill="#0B1120" stroke="#EF4444" stroke-width="1" />
+      <circle cx="18" cy="25" r="4" fill="#EF4444" />
+      <text x="30" y="22" fill="#FFFFFF" font-family="sans-serif" font-size="12" font-weight="600">Ayesha Siddiqua (ID: STD-8499) - Chemistry Room 102</text>
+      <text x="30" y="38" fill="#F87171" font-family="sans-serif" font-size="11">Turnstile Clock-IN: ABSENT at 09:15 AM → Auto Fallback Triggered</text>
+      <rect x="415" y="14" width="90" height="22" rx="4" fill="#7F1D1D" />
+      <text x="460" y="29" text-anchor="middle" fill="#FCA5A5" font-family="sans-serif" font-size="10" font-weight="700">Live Stream ↗</text>
+    </g>
+
+    <!-- Automated Hybrid Fallback Logic Box -->
+    <g transform="translate(20, 385)">
+      <rect width="520" height="150" rx="8" fill="#0B132B" stroke="#0284C7" stroke-width="1.2" />
+      <text x="18" y="26" fill="#38BDF8" font-family="sans-serif" font-size="13" font-weight="700">🔄 Intelligent Hybrid Physical-to-Online Routing</text>
+      <text x="18" y="50" fill="#CBD5E1" font-family="sans-serif" font-size="11.5">If a student fails to badge into the physical campus turnstile within 10</text>
+      <text x="18" y="68" fill="#CBD5E1" font-family="sans-serif" font-size="11.5">minutes of class start:</text>
+      <text x="25" y="92" fill="#93C5FD" font-family="sans-serif" font-size="11">1. Automatically dispatches encrypted WebRTC live classroom stream link to Guardian via WhatsApp/SMS</text>
+      <text x="25" y="112" fill="#93C5FD" font-family="sans-serif" font-size="11">2. Student attends virtually without missing a single lesson</text>
+      <text x="25" y="132" fill="#34D399" font-family="sans-serif" font-size="11">✓ Zero learning disruption • 100% attendance accountability</text>
+    </g>
+  </g>
+
+  <!-- RIGHT: GUARDIAN / PARENT SELF-SERVICE MOBILE PORTAL (WIDTH 560) -->
+  <g transform="translate(610, 80)">
+    <rect width="560" height="570" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.2" filter="url(#hubShadow)" />
+
+    <g transform="translate(20, 22)">
+      <text x="0" y="15" fill="#F8FAFC" font-family="sans-serif" font-size="14" font-weight="700">👨‍👩‍👧 Guardian Portal (`/guardian`) — Parent Peace of Mind</text>
+      <text x="0" y="32" fill="#94A3B8" font-family="sans-serif" font-size="11">70% drop in inbound parent support calls • Instant child attendance &amp; billing control</text>
+    </g>
+    <line x1="20" y1="62" x2="540" y2="62" stroke="#334155" stroke-width="1" />
+
+    <!-- Child Selector & Quick Status -->
+    <g transform="translate(20, 75)">
+      <rect width="520" height="90" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1" />
+      <circle cx="35" cy="45" r="24" fill="#3B82F6" />
+      <text x="35" y="52" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="18" font-weight="700">👧</text>
+      <text x="75" y="32" fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="700">Sarah Miller (Grade 10 - IGCSE)</text>
+      <text x="75" y="50" fill="#94A3B8" font-family="sans-serif" font-size="11">Guardian: Michael Miller (Parent Verified)</text>
+      <text x="75" y="70" fill="#34D399" font-family="sans-serif" font-size="11">● Currently in Live Math Class with Dr. Rostova (38 mins elapsed)</text>
+      <rect x="420" y="24" width="85" height="28" rx="6" fill="#10B981" />
+      <text x="462" y="42" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="11" font-weight="700">👀 Observe</text>
+    </g>
+
+    <!-- Key Guardian Metrics -->
+    <g transform="translate(20, 180)">
+      <!-- Stat 1 -->
+      <rect width="160" height="75" rx="8" fill="#0B1120" stroke="#1E293B" stroke-width="1" />
+      <text x="14" y="24" fill="#94A3B8" font-family="sans-serif" font-size="10.5" font-weight="700">ATTENDANCE RATE</text>
+      <text x="14" y="52" fill="#34D399" font-family="sans-serif" font-size="22" font-weight="800">98.4%</text>
+      <text x="14" y="66" fill="#64748B" font-family="sans-serif" font-size="10">24 of 25 classes</text>
+
+      <!-- Stat 2 -->
+      <g transform="translate(180, 0)">
+        <rect width="160" height="75" rx="8" fill="#0B1120" stroke="#1E293B" stroke-width="1" />
+        <text x="14" y="24" fill="#94A3B8" font-family="sans-serif" font-size="10.5" font-weight="700">HOMEWORK SCORE</text>
+        <text x="14" y="52" fill="#60A5FA" font-family="sans-serif" font-size="22" font-weight="800">A+ (94%)</text>
+        <text x="14" y="66" fill="#64748B" font-family="sans-serif" font-size="10">12 assignments</text>
+      </g>
+
+      <!-- Stat 3 -->
+      <g transform="translate(360, 0)">
+        <rect width="160" height="75" rx="8" fill="#0B1120" stroke="#1E293B" stroke-width="1" />
+        <text x="14" y="24" fill="#94A3B8" font-family="sans-serif" font-size="10.5" font-weight="700">PREPAID CREDITS</text>
+        <text x="14" y="52" fill="#FBBF24" font-family="sans-serif" font-size="22" font-weight="800">6 Lessons</text>
+        <text x="14" y="66" fill="#64748B" font-family="sans-serif" font-size="10">$180.00 balance</text>
+      </g>
+    </g>
+
+    <!-- Parent Action Center -->
+    <g transform="translate(20, 275)">
+      <text x="0" y="15" fill="#E2E8F0" font-family="sans-serif" font-size="13" font-weight="700">🛡️ Safety &amp; Approval Permissions</text>
+      
+      <!-- Permission 1 -->
+      <g transform="translate(0, 30)">
+        <rect width="520" height="52" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+        <text x="16" y="22" fill="#FFFFFF" font-family="sans-serif" font-size="12" font-weight="600">Booking Authorization Gate</text>
+        <text x="16" y="38" fill="#94A3B8" font-family="sans-serif" font-size="11">Requires guardian 1-click confirmation before child commits funds</text>
+        <rect x="450" y="14" width="55" height="24" rx="12" fill="#10B981" />
+        <circle cx="488" cy="26" r="9" fill="#FFFFFF" />
+      </g>
+
+      <!-- Permission 2 -->
+      <g transform="translate(0, 92)">
+        <rect width="520" height="52" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+        <text x="16" y="22" fill="#FFFFFF" font-family="sans-serif" font-size="12" font-weight="600">Session Video Recording Access</text>
+        <text x="16" y="38" fill="#94A3B8" font-family="sans-serif" font-size="11">Watch full classroom replays and view tutor annotations</text>
+        <rect x="450" y="14" width="55" height="24" rx="12" fill="#10B981" />
+        <circle cx="488" cy="26" r="9" fill="#FFFFFF" />
+      </g>
+
+      <!-- Permission 3 -->
+      <g transform="translate(0, 154)">
+        <rect width="520" height="52" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+        <text x="16" y="22" fill="#FFFFFF" font-family="sans-serif" font-size="12" font-weight="600">Instant Teacher Direct Messaging</text>
+        <text x="16" y="38" fill="#94A3B8" font-family="sans-serif" font-size="11">Chat with Dr. Elena Rostova regarding progress report</text>
+        <rect x="420" y="14" width="85" height="24" rx="6" fill="#4F46E5" />
+        <text x="462" y="30" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="11" font-weight="700">Open Chat</text>
+      </g>
+    </g>
+
+    <!-- Guardian Mobile Banner -->
+    <g transform="translate(20, 505)">
+      <rect width="520" height="42" rx="6" fill="#0B1120" stroke="#334155" stroke-width="1" />
+      <text x="16" y="26" fill="#38BDF8" font-family="sans-serif" font-size="11.5" font-weight="600">📱 Mobile PWA Ready — Parents can install directly on iOS &amp; Android without App Store</text>
+    </g>
+  </g>
+</svg>
