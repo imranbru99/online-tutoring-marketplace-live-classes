@@ -5,6 +5,14 @@
     "description": "The skeleton application for the Laravel framework.",
     "keywords": ["laravel", "framework"],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Imran Ahmed",
+            "email": "me@imrandev.bd",
+            "homepage": "https://imrandev.bd",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "php": "^8.2",
         "filament/filament": "^3.2",
