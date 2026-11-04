@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090D16" />
+      <stop offset="50%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366F1" />
+      <stop offset="50%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.95" />
+    </linearGradient>
+    <linearGradient id="accentCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+    <linearGradient id="accentGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="60" result="blur" />
+    </filter>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="500" fill="url(#bg)" />
+
+  <!-- Ambient Light Orbs -->
+  <circle cx="200" cy="80" r="140" fill="#4F46E5" opacity="0.25" filter="url(#glow)" />
+  <circle cx="1000" cy="180" r="180" fill="#EC4899" opacity="0.18" filter="url(#glow)" />
+  <circle cx="600" cy="420" r="160" fill="#06B6D4" opacity="0.15" filter="url(#glow)" />
+
+  <!-- Grid Pattern Overlay -->
+  <g opacity="0.08" stroke="#FFFFFF" stroke-width="1">
+    <line x1="0" y1="50" x2="1200" y2="50" />
+    <line x1="0" y1="100" x2="1200" y2="100" />
+    <line x1="0" y1="150" x2="1200" y2="150" />
+    <line x1="0" y1="200" x2="1200" y2="200" />
+    <line x1="0" y1="250" x2="1200" y2="250" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="0" y1="350" x2="1200" y2="350" />
+    <line x1="0" y1="400" x2="1200" y2="400" />
+    <line x1="0" y1="450" x2="1200" y2="450" />
+    <line x1="100" y1="0" x2="100" y2="500" />
+    <line x1="200" y1="0" x2="200" y2="500" />
+    <line x1="300" y1="0" x2="300" y2="500" />
+    <line x1="400" y1="0" x2="400" y2="500" />
+    <line x1="500" y1="0" x2="500" y2="500" />
+    <line x1="600" y1="0" x2="600" y2="500" />
+    <line x1="700" y1="0" x2="700" y2="500" />
+    <line x1="800" y1="0" x2="800" y2="500" />
+    <line x1="900" y1="0" x2="900" y2="500" />
+    <line x1="1000" y1="0" x2="1000" y2="500" />
+    <line x1="1100" y1="0" x2="1100" y2="500" />
+  </g>
+
+  <!-- Top Pill / Status Tag -->
+  <g transform="translate(60, 48)">
+    <rect width="320" height="32" rx="16" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <circle cx="16" cy="16" r="5" fill="#10B981" />
+    <text x="32" y="21" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" letter-spacing="0.5">THE ULTIMATE EDTECH MONOLITH 2026</text>
+  </g>
+
+  <!-- Main Headline -->
+  <text x="60" y="130" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="800" letter-spacing="-1">
+    EduFlow OS™
+  </text>
+  <text x="60" y="174" fill="url(#primaryGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="700" letter-spacing="-0.5">
+    Online Tutoring Marketplace &amp; Institutional Live Learning
+  </text>
+
+  <!-- Subtitle -->
+  <text x="60" y="216" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400">
+    Built with PHP 8.3+, Laravel 11.57 &amp; Filament v3.3. Featuring 50 Plug-and-Play Modules, 11 Dedicated Role Panels,
+  </text>
+  <text x="60" y="240" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400">
+    Zero-Latency WebRTC Whiteboard, Biometric Turnstiles, Escrow Wallets, and Multi-LLM AI Gateway.
+  </text>
+
+  <!-- Tech Badges Row -->
+  <g transform="translate(60, 268)">
+    <!-- Badge 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="135" height="30" rx="6" fill="#1E293B" stroke="#475569" stroke-width="1" />
+      <text x="12" y="19" fill="#E2E8F0" font-family="sans-serif" font-size="12" font-weight="600">⚡ Laravel 11.57</text>
+    </g>
+    <!-- Badge 2 -->
+    <g transform="translate(145, 0)">
+      <rect width="135" height="30" rx="6" fill="#1E293B" stroke="#475569" stroke-width="1" />
+      <text x="12" y="19" fill="#F59E0B" font-family="sans-serif" font-size="12" font-weight="600">💎 Filament v3.3</text>
+    </g>
+    <!-- Badge 3 -->
+    <g transform="translate(290, 0)">
+      <rect width="145" height="30" rx="6" fill="#1E293B" stroke="#475569" stroke-width="1" />
+      <text x="12" y="19" fill="#38BDF8" font-family="sans-serif" font-size="12" font-weight="600">🧩 50 Core Modules</text>
+    </g>
+    <!-- Badge 4 -->
+    <g transform="translate(445, 0)">
+      <rect width="145" height="30" rx="6" fill="#1E293B" stroke="#475569" stroke-width="1" />
+      <text x="12" y="19" fill="#A855F7" font-family="sans-serif" font-size="12" font-weight="600">👥 11 Role Panels</text>
+    </g>
+    <!-- Badge 5 -->
+    <g transform="translate(600, 0)">
+      <rect width="165" height="30" rx="6" fill="#1E293B" stroke="#475569" stroke-width="1" />
+      <text x="12" y="19" fill="#10B981" font-family="sans-serif" font-size="12" font-weight="600">📹 WebRTC Classroom</text>
+    </g>
+    <!-- Badge 6 -->
+    <g transform="translate(775, 0)">
+      <rect width="165" height="30" rx="6" fill="#1E293B" stroke="#475569" stroke-width="1" />
+      <text x="12" y="19" fill="#EC4899" font-family="sans-serif" font-size="12" font-weight="600">🤖 Multi-LLM AI Hub</text>
+    </g>
+  </g>
+
+  <!-- 4 Feature Highlight Cards at the bottom -->
+  <g transform="translate(60, 328)">
+    <!-- Card 1 -->
+    <g transform="translate(0, 0)" filter="url(#shadow)">
+      <rect width="250" height="130" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.5" />
+      <circle cx="36" cy="36" r="18" fill="#4F46E5" fill-opacity="0.2" stroke="#6366F1" stroke-width="1.5" />
+      <text x="36" y="41" text-anchor="middle" fill="#818CF8" font-size="16">🚀</text>
+      <text x="64" y="34" fill="#F8FAFC" font-family="sans-serif" font-size="14" font-weight="700">Turnkey Velocity</text>
+      <text x="64" y="52" fill="#38BDF8" font-family="sans-serif" font-size="12" font-weight="600">Saves 9-12 Mo &amp; $120k</text>
+      <text x="20" y="84" fill="#94A3B8" font-family="sans-serif" font-size="11.5">Replace 8 fragmented SaaS tools.</text>
+      <text x="20" y="104" fill="#94A3B8" font-family="sans-serif" font-size="11.5">Deploy and monetize in 5 mins.</text>
+    </g>
+
+    <!-- Card 2 -->
+    <g transform="translate(275, 0)" filter="url(#shadow)">
+      <rect width="250" height="130" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.5" />
+      <circle cx="36" cy="36" r="18" fill="#059669" fill-opacity="0.2" stroke="#10B981" stroke-width="1.5" />
+      <text x="36" y="41" text-anchor="middle" fill="#34D399" font-size="16">💳</text>
+      <text x="64" y="34" fill="#F8FAFC" font-family="sans-serif" font-size="14" font-weight="700">Fintech &amp; Escrow</text>
+      <text x="64" y="52" fill="#34D399" font-family="sans-serif" font-size="12" font-weight="600">Zero Payment Disputes</text>
+      <text x="20" y="84" fill="#94A3B8" font-family="sans-serif" font-size="11.5">Automated tutor commission splits,</text>
+      <text x="20" y="104" fill="#94A3B8" font-family="sans-serif" font-size="11.5">multi-currency wallets &amp; tax PDFs.</text>
+    </g>
+
+    <!-- Card 3 -->
+    <g transform="translate(550, 0)" filter="url(#shadow)">
+      <rect width="250" height="130" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.5" />
+      <circle cx="36" cy="36" r="18" fill="#D97706" fill-opacity="0.2" stroke="#F59E0B" stroke-width="1.5" />
+      <text x="36" y="41" text-anchor="middle" fill="#FBBF24" font-size="16">🏢</text>
+      <text x="64" y="34" fill="#F8FAFC" font-family="sans-serif" font-size="14" font-weight="700">Multi-Branch Campus</text>
+      <text x="64" y="52" fill="#FBBF24" font-family="sans-serif" font-size="12" font-weight="600">Physical + Online Hybrid</text>
+      <text x="20" y="84" fill="#94A3B8" font-family="sans-serif" font-size="11.5">Biometric RFID turnstiles synced</text>
+      <text x="20" y="104" fill="#94A3B8" font-family="sans-serif" font-size="11.5">directly to live class attendances.</text>
+    </g>
+
+    <!-- Card 4 -->
+    <g transform="translate(825, 0)" filter="url(#shadow)">
+      <rect width="250" height="130" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.5" />
+      <circle cx="36" cy="36" r="18" fill="#7C3AED" fill-opacity="0.2" stroke="#8B5CF6" stroke-width="1.5" />
+      <text x="36" y="41" text-anchor="middle" fill="#C084FC" font-size="16">🧠</text>
+      <text x="64" y="34" fill="#F8FAFC" font-family="sans-serif" font-size="14" font-weight="700">Autonomous AI Hub</text>
+      <text x="64" y="52" fill="#C084FC" font-family="sans-serif" font-size="12" font-weight="600">Multi-Provider Failover</text>
+      <text x="20" y="84" fill="#94A3B8" font-family="sans-serif" font-size="11.5">Auto quiz generation, 24/7 AI</text>
+      <text x="20" y="104" fill="#94A3B8" font-family="sans-serif" font-size="11.5">tutor assistant &amp; syllabus parsing.</text>
+    </g>
+  </g>
+</svg>

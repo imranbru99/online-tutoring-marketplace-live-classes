@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" width="1200" height="620">
+  <defs>
+    <linearGradient id="roiBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090D16" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+    <linearGradient id="badCardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#450A0A" />
+    </linearGradient>
+    <linearGradient id="goodCardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#064E3B" />
+    </linearGradient>
+    <linearGradient id="bannerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="50%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+    <filter id="shadowLg">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="620" fill="url(#roiBg)" />
+
+  <!-- HEADER -->
+  <text x="600" y="45" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="24" font-weight="800">Why Build From Scratch? The Quantified Business ROI</text>
+  <text x="600" y="70" text-anchor="middle" fill="#94A3B8" font-family="sans-serif" font-size="14">Save 9-14 Months of Complex Engineering and $120,000+ in Upfront Development Waste</text>
+
+  <!-- LEFT CARD: BUILDING FROM SCRATCH (TRADITIONAL) -->
+  <g transform="translate(60, 100)" filter="url(#shadowLg)">
+    <rect width="515" height="390" rx="14" fill="url(#badCardGrad)" stroke="#EF4444" stroke-width="1.5" />
+    
+    <!-- Header -->
+    <rect x="24" y="20" width="160" height="26" rx="6" fill="#7F1D1D" />
+    <text x="34" y="38" fill="#FCA5A5" font-family="sans-serif" font-size="11.5" font-weight="700">❌ TRADITIONAL APPROACH</text>
+    <text x="24" y="78" fill="#FFFFFF" font-family="sans-serif" font-size="22" font-weight="800">Building In-House From Zero</text>
+
+    <!-- Pain points list -->
+    <g transform="translate(24, 105)">
+      <!-- Item 1 -->
+      <g transform="translate(0, 0)">
+        <text x="0" y="16" fill="#EF4444" font-size="16">⏳</text>
+        <text x="28" y="14" fill="#F8FAFC" font-family="sans-serif" font-size="13" font-weight="700">Time-To-Market: 9 to 14 Months</text>
+        <text x="28" y="32" fill="#CBD5E1" font-family="sans-serif" font-size="11.5">Endless sprints building calendars, auth, timezones &amp; payments.</text>
+      </g>
+      <!-- Item 2 -->
+      <g transform="translate(0, 56)">
+        <text x="0" y="16" fill="#EF4444" font-size="16">💸</text>
+        <text x="28" y="14" fill="#F8FAFC" font-family="sans-serif" font-size="13" font-weight="700">Engineering Cost: $110,000 – $180,000+</text>
+        <text x="28" y="32" fill="#CBD5E1" font-family="sans-serif" font-size="11.5">Salary for 4 Senior Devs, 1 DevOps, 1 UI/UX, and QA engineers.</text>
+      </g>
+      <!-- Item 3 -->
+      <g transform="translate(0, 112)">
+        <text x="0" y="16" fill="#EF4444" font-size="16">🧩</text>
+        <text x="28" y="14" fill="#F8FAFC" font-family="sans-serif" font-size="13" font-weight="700">SaaS Subscription Sprawl: $800 - $1,800 / mo</text>
+        <text x="28" y="32" fill="#CBD5E1" font-family="sans-serif" font-size="11.5">Paying per-seat for Zoom ($250), Calendly ($80), Freshdesk ($120), etc.</text>
+      </g>
+      <!-- Item 4 -->
+      <g transform="translate(0, 168)">
+        <text x="0" y="16" fill="#EF4444" font-size="16">⚠️</text>
+        <text x="28" y="14" fill="#F8FAFC" font-family="sans-serif" font-size="13" font-weight="700">Fragile Webhooks &amp; Integration Friction</text>
+        <text x="28" y="32" fill="#CBD5E1" font-family="sans-serif" font-size="11.5">Sync failures between Zapier, Stripe, Google Meet, and databases.</text>
+      </g>
+      <!-- Item 5 -->
+      <g transform="translate(0, 224)">
+        <text x="0" y="16" fill="#EF4444" font-size="16">🔥</text>
+        <text x="28" y="14" fill="#F8FAFC" font-family="sans-serif" font-size="13" font-weight="700">High Risk of Project Abandonment (65%+)</text>
+        <text x="28" y="32" fill="#CBD5E1" font-family="sans-serif" font-size="11.5">Competitors launch while you are still debugging video canvas sockets.</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- RIGHT CARD: LAUNCHING WITH EDUFLOW OS -->
+  <g transform="translate(625, 100)" filter="url(#shadowLg)">
+    <rect width="515" height="390" rx="14" fill="url(#goodCardGrad)" stroke="#10B981" stroke-width="1.5" />
+    
+    <!-- Header -->
+    <rect x="24" y="20" width="165" height="26" rx="6" fill="#065F46" />
+    <text x="34" y="38" fill="#6EE7B7" font-family="sans-serif" font-size="11.5" font-weight="700">⚡ EDUFLOW OS ADVANTAGE</text>
+    <text x="24" y="78" fill="#FFFFFF" font-family="sans-serif" font-size="22" font-weight="800">Turnkey Modular Monolith</text>
+
+    <!-- Wins list -->
+    <g transform="translate(24, 105)">
+      <!-- Win 1 -->
+      <g transform="translate(0, 0)">
+        <text x="0" y="16" fill="#10B981" font-size="16">🚀</text>
+        <text x="28" y="14" fill="#F8FAFC" font-family="sans-serif" font-size="13" font-weight="700">Time-To-Market: 5 Minutes</text>
+        <text x="28" y="32" fill="#CBD5E1" font-family="sans-serif" font-size="11.5">Instant Setup Wizard with 8 business presets ready to launch today.</text>
+      </g>
+      <!-- Win 2 -->
+      <g transform="translate(0, 56)">
+        <text x="0" y="16" fill="#10B981" font-size="16">💰</text>
+        <text x="28" y="14" fill="#F8FAFC" font-family="sans-serif" font-size="13" font-weight="700">Upfront Engineering Cost: $0 Waste</text>
+        <text x="28" y="32" fill="#CBD5E1" font-family="sans-serif" font-size="11.5">50 battle-tested modules and 11 Filament panels already fully built.</text>
+      </g>
+      <!-- Win 3 -->
+      <g transform="translate(0, 112)">
+        <text x="0" y="16" fill="#10B981" font-size="16">🎯</text>
+        <text x="28" y="14" fill="#F8FAFC" font-family="sans-serif" font-size="13" font-weight="700">Zero Recurring SaaS Per-Seat Tax</text>
+        <text x="28" y="32" fill="#CBD5E1" font-family="sans-serif" font-size="11.5">Everything native: WebRTC classrooms, escrow wallets &amp; AI Bots.</text>
+      </g>
+      <!-- Win 4 -->
+      <g transform="translate(0, 168)">
+        <text x="0" y="16" fill="#10B981" font-size="16">📶</text>
+        <text x="28" y="14" fill="#F8FAFC" font-family="sans-serif" font-size="13" font-weight="700">Integrated Biometric Hardware &amp; RTL Support</text>
+        <text x="28" y="32" fill="#CBD5E1" font-family="sans-serif" font-size="11.5">Physical turnstiles, Arabic/Bangla Unicode PDFs &amp; 301 SEO slugs.</text>
+      </g>
+      <!-- Win 5 -->
+      <g transform="translate(0, 224)">
+        <text x="0" y="16" fill="#10B981" font-size="16">🛡️</text>
+        <text x="28" y="14" fill="#F8FAFC" font-family="sans-serif" font-size="13" font-weight="700">100% Code Ownership &amp; Customizability</text>
+        <text x="28" y="32" fill="#CBD5E1" font-family="sans-serif" font-size="11.5">Your servers, your database, your brand — zero platform lock-in.</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- BOTTOM GRAND SUMMARY STRIP -->
+  <g transform="translate(60, 515)" filter="url(#shadowLg)">
+    <rect width="1080" height="75" rx="10" fill="url(#bannerGrad)" />
+    
+    <text x="40" y="34" fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="800">NET BOTTOM-LINE SAVINGS:</text>
+    <text x="40" y="56" fill="#E0E7FF" font-family="sans-serif" font-size="13">1,500+ Development Hours Saved • $120,000+ In R&amp;D Capital Preserved • 15-20 Hours/Week Admin Time Cut</text>
+
+    <!-- Big Pill -->
+    <rect x="880" y="16" width="170" height="42" rx="8" fill="#FFFFFF" />
+    <text x="965" y="42" text-anchor="middle" fill="#1E1B4B" font-family="sans-serif" font-size="14" font-weight="900">ROI: 1,200%+</text>
+  </g>
+</svg>

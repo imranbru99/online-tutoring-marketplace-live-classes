@@ -1,0 +1,237 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="1200" height="680">
+  <defs>
+    <linearGradient id="archBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F19" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+    <linearGradient id="tierGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#1E1B4B" />
+    </linearGradient>
+    <linearGradient id="tierGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#064E3B" />
+    </linearGradient>
+    <linearGradient id="tierGrad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#78350F" />
+    </linearGradient>
+    <linearGradient id="tierGrad4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#831843" />
+    </linearGradient>
+    <filter id="shadowBox">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="680" fill="url(#archBg)" />
+
+  <!-- TITLE -->
+  <text x="600" y="42" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="22" font-weight="800">EduFlow OS Modular Monolith Architecture Blueprint</text>
+  <text x="600" y="64" text-anchor="middle" fill="#94A3B8" font-family="sans-serif" font-size="13">High-Performance, Multi-Tenant &amp; Multi-Branch EdTech Infrastructure</text>
+
+  <!-- TIER 1: CLIENT PRESENTATION & 11 FILAMENT PANELS -->
+  <g transform="translate(60, 90)" filter="url(#shadowBox)">
+    <rect width="1080" height="110" rx="10" fill="url(#tierGrad1)" stroke="#6366F1" stroke-width="1.5" />
+    <rect x="20" y="12" width="220" height="24" rx="4" fill="#4338CA" />
+    <text x="30" y="28" fill="#E0E7FF" font-family="sans-serif" font-size="11" font-weight="700">TIER 1: 11 DEDICATED FILAMENT PANELS</text>
+    <text x="250" y="28" fill="#94A3B8" font-family="sans-serif" font-size="11">Role-isolated dashboards + Universal PWA + REST/GraphQL APIs</text>
+
+    <!-- 11 Panel Badges -->
+    <g transform="translate(20, 48)">
+      <!-- Panel 1 -->
+      <rect x="0" y="0" width="85" height="44" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+      <text x="42" y="18" text-anchor="middle" fill="#A5B4FC" font-family="sans-serif" font-size="10.5" font-weight="700">Super Admin</text>
+      <text x="42" y="34" text-anchor="middle" fill="#64748B" font-family="sans-serif" font-size="9.5">/super-admin</text>
+
+      <!-- Panel 2 -->
+      <rect x="95" y="0" width="85" height="44" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+      <text x="137" y="18" text-anchor="middle" fill="#A5B4FC" font-family="sans-serif" font-size="10.5" font-weight="700">Business</text>
+      <text x="137" y="34" text-anchor="middle" fill="#64748B" font-family="sans-serif" font-size="9.5">/admin</text>
+
+      <!-- Panel 3 -->
+      <rect x="190" y="0" width="85" height="44" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+      <text x="232" y="18" text-anchor="middle" fill="#A5B4FC" font-family="sans-serif" font-size="10.5" font-weight="700">Branch Mgr</text>
+      <text x="232" y="34" text-anchor="middle" fill="#64748B" font-family="sans-serif" font-size="9.5">/branch</text>
+
+      <!-- Panel 4 -->
+      <rect x="285" y="0" width="85" height="44" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+      <text x="327" y="18" text-anchor="middle" fill="#A5B4FC" font-family="sans-serif" font-size="10.5" font-weight="700">Tutor</text>
+      <text x="327" y="34" text-anchor="middle" fill="#64748B" font-family="sans-serif" font-size="9.5">/tutor</text>
+
+      <!-- Panel 5 -->
+      <rect x="380" y="0" width="85" height="44" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+      <text x="422" y="18" text-anchor="middle" fill="#A5B4FC" font-family="sans-serif" font-size="10.5" font-weight="700">Student</text>
+      <text x="422" y="34" text-anchor="middle" fill="#64748B" font-family="sans-serif" font-size="9.5">/student</text>
+
+      <!-- Panel 6 -->
+      <rect x="475" y="0" width="85" height="44" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+      <text x="517" y="18" text-anchor="middle" fill="#A5B4FC" font-family="sans-serif" font-size="10.5" font-weight="700">Guardian</text>
+      <text x="517" y="34" text-anchor="middle" fill="#64748B" font-family="sans-serif" font-size="9.5">/guardian</text>
+
+      <!-- Panel 7 -->
+      <rect x="570" y="0" width="85" height="44" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+      <text x="612" y="18" text-anchor="middle" fill="#A5B4FC" font-family="sans-serif" font-size="10.5" font-weight="700">Support</text>
+      <text x="612" y="34" text-anchor="middle" fill="#64748B" font-family="sans-serif" font-size="9.5">/support</text>
+
+      <!-- Panel 8 -->
+      <rect x="665" y="0" width="85" height="44" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+      <text x="707" y="18" text-anchor="middle" fill="#A5B4FC" font-family="sans-serif" font-size="10.5" font-weight="700">Finance</text>
+      <text x="707" y="34" text-anchor="middle" fill="#64748B" font-family="sans-serif" font-size="9.5">/finance</text>
+
+      <!-- Panel 9 -->
+      <rect x="760" y="0" width="85" height="44" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+      <text x="802" y="18" text-anchor="middle" fill="#A5B4FC" font-family="sans-serif" font-size="10.5" font-weight="700">Content</text>
+      <text x="802" y="34" text-anchor="middle" fill="#64748B" font-family="sans-serif" font-size="9.5">/content</text>
+
+      <!-- Panel 10 -->
+      <rect x="855" y="0" width="90" height="44" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+      <text x="900" y="18" text-anchor="middle" fill="#A5B4FC" font-family="sans-serif" font-size="10.5" font-weight="700">Institution</text>
+      <text x="900" y="34" text-anchor="middle" fill="#64748B" font-family="sans-serif" font-size="9.5">/institution</text>
+
+      <!-- Panel 11 -->
+      <rect x="955" y="0" width="85" height="44" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+      <text x="997" y="18" text-anchor="middle" fill="#A5B4FC" font-family="sans-serif" font-size="10.5" font-weight="700">Affiliate</text>
+      <text x="997" y="34" text-anchor="middle" fill="#64748B" font-family="sans-serif" font-size="9.5">/affiliate</text>
+    </g>
+  </g>
+
+  <!-- TIER 2: 50 PLUGGABLE BUSINESS MODULES MONOLITH -->
+  <g transform="translate(60, 225)" filter="url(#shadowBox)">
+    <rect width="1080" height="130" rx="10" fill="url(#tierGrad2)" stroke="#10B981" stroke-width="1.5" />
+    <rect x="20" y="12" width="270" height="24" rx="4" fill="#065F46" />
+    <text x="30" y="28" fill="#D1FAE5" font-family="sans-serif" font-size="11" font-weight="700">TIER 2: 50 MODULAR BUSINESS ENGINES</text>
+    <text x="300" y="28" fill="#94A3B8" font-family="sans-serif" font-size="11">Toggleable via Module Center with strict dependency graphs</text>
+
+    <!-- 5 Module Domain Columns -->
+    <g transform="translate(20, 48)">
+      <!-- Col 1: Scheduling & Live -->
+      <g transform="translate(0, 0)">
+        <rect width="195" height="66" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+        <text x="12" y="20" fill="#34D399" font-family="sans-serif" font-size="11" font-weight="700">Live &amp; Scheduling</text>
+        <text x="12" y="38" fill="#94A3B8" font-family="sans-serif" font-size="10.5">Bookings, Calendar, Timetable</text>
+        <text x="12" y="54" fill="#94A3B8" font-family="sans-serif" font-size="10.5">LiveClassroom, Whiteboard</text>
+      </g>
+      <!-- Col 2: LMS & Learning -->
+      <g transform="translate(210, 0)">
+        <rect width="195" height="66" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+        <text x="12" y="20" fill="#34D399" font-family="sans-serif" font-size="11" font-weight="700">Curriculum &amp; LMS</text>
+        <text x="12" y="38" fill="#94A3B8" font-family="sans-serif" font-size="10.5">Courses, Packages, Catalog</text>
+        <text x="12" y="54" fill="#94A3B8" font-family="sans-serif" font-size="10.5">Quizzes, Assignments, Certs</text>
+      </g>
+      <!-- Col 3: Fintech & Wallets -->
+      <g transform="translate(420, 0)">
+        <rect width="195" height="66" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+        <text x="12" y="20" fill="#34D399" font-family="sans-serif" font-size="11" font-weight="700">Fintech &amp; Wallets</text>
+        <text x="12" y="38" fill="#94A3B8" font-family="sans-serif" font-size="10.5">Payments, Wallet, Escrow</text>
+        <text x="12" y="54" fill="#94A3B8" font-family="sans-serif" font-size="10.5">Invoicing, Commissions, Saas</text>
+      </g>
+      <!-- Col 4: AI Suite -->
+      <g transform="translate(630, 0)">
+        <rect width="195" height="66" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+        <text x="12" y="20" fill="#34D399" font-family="sans-serif" font-size="11" font-weight="700">Autonomous AI</text>
+        <text x="12" y="38" fill="#94A3B8" font-family="sans-serif" font-size="10.5">AiAssistant, AiTutor Bot</text>
+        <text x="12" y="54" fill="#94A3B8" font-family="sans-serif" font-size="10.5">AiCatalog Scraper, AiAdmin</text>
+      </g>
+      <!-- Col 5: Operations & Attendance -->
+      <g transform="translate(840, 0)">
+        <rect width="200" height="66" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+        <text x="12" y="20" fill="#34D399" font-family="sans-serif" font-size="11" font-weight="700">Operations &amp; Campus</text>
+        <text x="12" y="38" fill="#94A3B8" font-family="sans-serif" font-size="10.5">Attendance Hub, StaffHr, CRM</text>
+        <text x="12" y="54" fill="#94A3B8" font-family="sans-serif" font-size="10.5">Disputes, Gamification, Reports</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- TIER 3: MANDATORY ECOSYSTEM SERVICE ADAPTERS -->
+  <g transform="translate(60, 380)" filter="url(#shadowBox)">
+    <rect width="1080" height="120" rx="10" fill="url(#tierGrad3)" stroke="#F59E0B" stroke-width="1.5" />
+    <rect x="20" y="12" width="290" height="24" rx="4" fill="#78350F" />
+    <text x="30" y="28" fill="#FEF3C7" font-family="sans-serif" font-size="11" font-weight="700">TIER 3: 7 MANDATORY SERVICE ADAPTERS</text>
+    <text x="320" y="28" fill="#94A3B8" font-family="sans-serif" font-size="11">Clean interfaces isolating proprietary &amp; third-party engines</text>
+
+    <!-- 7 Adapter Badges -->
+    <g transform="translate(20, 48)">
+      <!-- 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="140" height="54" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+        <text x="10" y="20" fill="#FBBF24" font-family="sans-serif" font-size="11" font-weight="700">⚡ Drutogoti APM</text>
+        <text x="10" y="38" fill="#94A3B8" font-family="sans-serif" font-size="9.5">N+1 &amp; Query Profiler</text>
+      </g>
+      <!-- 2 -->
+      <g transform="translate(150, 0)">
+        <rect width="140" height="54" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+        <text x="10" y="20" fill="#FBBF24" font-family="sans-serif" font-size="11" font-weight="700">🤖 AI Hub Gateway</text>
+        <text x="10" y="38" fill="#94A3B8" font-family="sans-serif" font-size="9.5">Multi-LLM Failover</text>
+      </g>
+      <!-- 3 -->
+      <g transform="translate(300, 0)">
+        <rect width="140" height="54" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+        <text x="10" y="20" fill="#FBBF24" font-family="sans-serif" font-size="11" font-weight="700">📶 Attendance Hub</text>
+        <text x="10" y="38" fill="#94A3B8" font-family="sans-serif" font-size="9.5">Biometric &amp; RFID Devices</text>
+      </g>
+      <!-- 4 -->
+      <g transform="translate(450, 0)">
+        <rect width="140" height="54" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+        <text x="10" y="20" fill="#FBBF24" font-family="sans-serif" font-size="11" font-weight="700">📄 Unicode PDF</text>
+        <text x="10" y="38" fill="#94A3B8" font-family="sans-serif" font-size="9.5">Arabic, Bangla, CJK</text>
+      </g>
+      <!-- 5 -->
+      <g transform="translate(600, 0)">
+        <rect width="140" height="54" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+        <text x="10" y="20" fill="#FBBF24" font-family="sans-serif" font-size="11" font-weight="700">🔗 Universal Slug</text>
+        <text x="10" y="38" fill="#94A3B8" font-family="sans-serif" font-size="9.5">301 Tracking &amp; SEO</text>
+      </g>
+      <!-- 6 -->
+      <g transform="translate(750, 0)">
+        <rect width="140" height="54" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+        <text x="10" y="20" fill="#FBBF24" font-family="sans-serif" font-size="11" font-weight="700">🎨 Admin Panel UI</text>
+        <text x="10" y="38" fill="#94A3B8" font-family="sans-serif" font-size="9.5">Dynamic Theme Engine</text>
+      </g>
+      <!-- 7 -->
+      <g transform="translate(900, 0)">
+        <rect width="140" height="54" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+        <text x="10" y="20" fill="#FBBF24" font-family="sans-serif" font-size="11" font-weight="700">📚 AI Catalog</text>
+        <text x="10" y="38" fill="#94A3B8" font-family="sans-serif" font-size="9.5">Syllabus Scraper</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- TIER 4: MULTI-TENANT PERSISTENCE & INFRASTRUCTURE -->
+  <g transform="translate(60, 525)" filter="url(#shadowBox)">
+    <rect width="1080" height="110" rx="10" fill="url(#tierGrad4)" stroke="#EC4899" stroke-width="1.5" />
+    <rect x="20" y="12" width="280" height="24" rx="4" fill="#831843" />
+    <text x="30" y="28" fill="#FCE7F3" font-family="sans-serif" font-size="11" font-weight="700">TIER 4: INFRASTRUCTURE &amp; DATA ENGINE</text>
+    <text x="310" y="28" fill="#94A3B8" font-family="sans-serif" font-size="11">Multi-tenant scoping, asynchronous event bus &amp; real-time sockets</text>
+
+    <!-- Infra items -->
+    <g transform="translate(20, 48)">
+      <!-- 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="250" height="46" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+        <text x="12" y="20" fill="#F472B6" font-family="sans-serif" font-size="11.5" font-weight="700">Multi-Tenant MySQL 8 / SQLite</text>
+        <text x="12" y="36" fill="#94A3B8" font-family="sans-serif" font-size="10">TenantScope &amp; Branch Isolation</text>
+      </g>
+      <!-- 2 -->
+      <g transform="translate(265, 0)">
+        <rect width="250" height="46" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+        <text x="12" y="20" fill="#F472B6" font-family="sans-serif" font-size="11.5" font-weight="700">Redis Cache &amp; Laravel Horizon</text>
+        <text x="12" y="36" fill="#94A3B8" font-family="sans-serif" font-size="10">High-throughput queue execution</text>
+      </g>
+      <!-- 3 -->
+      <g transform="translate(530, 0)">
+        <rect width="250" height="46" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+        <text x="12" y="20" fill="#F472B6" font-family="sans-serif" font-size="11.5" font-weight="700">WebRTC SFU Media Engine</text>
+        <text x="12" y="36" fill="#94A3B8" font-family="sans-serif" font-size="10">Ultra-low latency audio/video/canvas</text>
+      </g>
+      <!-- 4 -->
+      <g transform="translate(795, 0)">
+        <rect width="245" height="46" rx="6" fill="#0F172A" stroke="#334155" stroke-width="1" />
+        <text x="12" y="20" fill="#F472B6" font-family="sans-serif" font-size="11.5" font-weight="700">Biometric TCP/IP Gateway</text>
+        <text x="12" y="36" fill="#94A3B8" font-family="sans-serif" font-size="10">Hardware machine event hooks</text>
+      </g>
+    </g>
+  </g>
+</svg>
