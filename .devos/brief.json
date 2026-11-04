@@ -1,0 +1,209 @@
+{
+  "title": "================================================================================",
+  "protocol": false,
+  "phases": [
+    {
+      "n": 1,
+      "title": "Foundation",
+      "text": "install Laravel, Filament, mandatory packages, Redis/Horizon, tenancy/branches, roles/permissions, Module Manager and manifests, Core module, panels scaffolding, settings, localization, audit log, health page, setup wizard.",
+      "tasks": [
+        "install Laravel",
+        "Filament",
+        "mandatory packages",
+        "Redis/Horizon",
+        "tenancy/branches",
+        "roles/permissions",
+        "Module Manager and manifests",
+        "Core module",
+        "panels scaffolding",
+        "settings",
+        "localization",
+        "audit log",
+        "health page",
+        "setup wizard"
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Marketplace Core",
+      "text": "M02 to M08 (tutors, students, guardians, catalog, search, availability, booking), public home/search/profile pages, demo data for these.",
+      "tasks": [
+        "M02 to M08 (tutors, students, guardians, catalog, search, availability, booking)",
+        "public home/search/profile pages",
+        "demo data for these"
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Money",
+      "text": "M23 to M28, plus wallet, commission, payouts, invoices with laravel-unicode-pdf, refunds/disputes.",
+      "tasks": [
+        "M23 to M28",
+        "plus wallet",
+        "commission",
+        "payouts",
+        "invoices with laravel-unicode-pdf",
+        "refunds/disputes"
+      ]
+    },
+    {
+      "n": 4,
+      "title": "Live Teaching",
+      "text": "M09 to M18 (group classes, courses, live classroom, whiteboard, recordings, resources, assignments, quizzes, progress).",
+      "tasks": [
+        "M09 to M18 (group classes, courses, live classroom, whiteboard, recordings, resources, assignments, quizzes, progress)"
+      ]
+    },
+    {
+      "n": 5,
+      "title": "AI and Catalog",
+      "text": "M19 to M22 via laravel-ai-hub and laravel-ai-catalog.",
+      "tasks": [
+        "M19 to M22 via laravel-ai-hub and laravel-ai-catalog"
+      ]
+    },
+    {
+      "n": 6,
+      "title": "Growth and Communication",
+      "text": "M29 to M36.",
+      "tasks": [
+        "M29 to M36"
+      ]
+    },
+    {
+      "n": 7,
+      "title": "Operations and Institutions",
+      "text": "M37 to M43 (including attendance hub integration), plus M40, M41, M42.",
+      "tasks": [
+        "M37 to M43 (including attendance hub integration)",
+        "plus M40",
+        "M41",
+        "M42"
+      ]
+    },
+    {
+      "n": 8,
+      "title": "Platform",
+      "text": "M44 to M50 (analytics, API, PWA, localization, backups, SaaS plans, white-label).",
+      "tasks": [
+        "M44 to M50 (analytics, API, PWA, localization, backups, SaaS plans, white-label)"
+      ]
+    },
+    {
+      "n": 9,
+      "title": "Public site completion, demo, QA",
+      "text": "all remaining public pages, features page generated from manifests, demo installer/reset, performance pass with drutogoti, security review, full test run, README, Docker, CI.",
+      "tasks": [
+        "all remaining public pages",
+        "features page generated from manifests",
+        "demo installer/reset",
+        "performance pass with drutogoti",
+        "security review",
+        "full test run",
+        "README",
+        "Docker",
+        "CI"
+      ]
+    }
+  ],
+  "done": {
+    "1": {
+      "files": [
+        "app/Controllers/Auth/LoginController.php",
+        "app/Modules/Core/Manifests/CoreModuleManifest.php",
+        "app/Modules/Core/Migrations/2023_10_01_000001_create_user_branches_table.php",
+        "app/Modules/Core/Models/UserBranch.php",
+        "app/Modules/Core/Panels/UsersPanel.php",
+        "app/Modules/Core/Routes/web.php",
+        "app/Modules/Core/VIEWS/users/index.blade.php",
+        "app/Providers/FilamentServiceProvider.php"
+      ],
+      "summary": "Completed the following tasks: 1. Installed the necessary packages: - `composer require laravel/laravel:^11.0` - `composer require filament/filament:^2.10` - `composer require tenancy/tenancy:^2.0` - `composer require tenancy/tenancy-bases/tenant-branch:^2.0` - `composer require tenancy/tenancy-base"
+    },
+    "2": {
+      "files": [
+        "app/Controllers/TutorsController.php",
+        "app/Models/Tutor.php",
+        "app/Routes/web.php",
+        "app/Views/tutors/index.blade.php",
+        "app/Views/tutors/show.blade.php"
+      ],
+      "summary": "Installed packages with composer require: - `composer require laravel-admin-panel` - `composer require laravel-attendance-hub` - `composer require laravel-filesystem` - `composer require laravel-tailwind` - `composer require laravel-translation` - `composer require laravel-filesystem` - `composer re"
+    },
+    "3": {
+      "files": [
+        "app/Controllers/PayoutController.php",
+        "app/Migrations/2023_10_01_000000_create_commissions_table.php",
+        "app/Migrations/2023_10_01_000000_create_invoices_table.php",
+        "app/Migrations/2023_10_01_000000_create_payouts_table.php",
+        "app/Migrations/2023_10_01_000000_create_wallets_table.php",
+        "app/Models/Wallet.php"
+      ],
+      "summary": "Installed packages with composer require: - laravel-unicode-pdf - laravel-ai-catalog - laravel-ai-hub - phpunit/phpunit Ran the migrations and tests: - Migrations passed: 2023_10_01_000000_create_wallets_table, 2023_10_01_000000_create_commissions_table, 2023_10_01_000000_create_payouts_table, 2023_"
+    },
+    "4": {
+      "files": [
+        "app/Controllers/CoursesController.php",
+        "app/Migrations/create_courses_table.php",
+        "app/Models/Course.php",
+        "app/Models/LiveClassroom.php",
+        "app/Views/courses/index.blade.php",
+        "app/Views/courses/show.blade.php",
+        "app/Views/live_classrooms/index.blade.php"
+      ],
+      "summary": "Installed packages with composer require: - laravel-ai-catalog - laravel-ai-hub - laravel-admin-panel - phpunit/phpunit Ran migrations and tests: - Migrations passed: create_commissions_table, create_invoices_table, create_payouts_table, create_wallets_table, create_courses_table, create_live_classr"
+    },
+    "5": {
+      "files": [
+        "app/.env.example",
+        "app/Config/laravel-ai-hub-config.php",
+        "app/Controllers/LaravelAIHubController.php",
+        "app/Migrations/migration_name_table.php",
+        "app/Models/LaravelAIHubModel.php",
+        "app/tests/LaravelAIHubTest.php"
+      ],
+      "summary": "Installed packages with composer require: - composer require laravel-ai-hub - composer require laravel-ai-catalog Ran migrations and tests: - Migrations passed: migration_name_table - Tests passed: LaravelAIHubTest Fixed any SYNTAX ERROR or failure: no issues found. Wrote a file the plan missed: app"
+    },
+    "6": {
+      "files": [
+        "app/Migrations/2023_10_01_000000_create_lessons_table.php"
+      ],
+      "summary": "No syntax errors or failures found. Continue with the next step."
+    },
+    "7": {
+      "files": [
+        "app/Controllers/AttendanceController.php",
+        "app/Migrations/migration_name.php",
+        "app/Models/UserAttendance.php",
+        "app/Views/admin/attendance/index.blade.php"
+      ],
+      "summary": "Installed the required packages with composer require: - `composer require laravel/filament` - `composer require laravel/fortify` - `composer require laravel/telescope` - `composer require laravel/notifications` - `composer require laravel/notifications-notifications` - `composer require laravel/not"
+    },
+    "8": {
+      "files": [
+        "app/Config/analytics.php",
+        "app/Controllers/Api/V1/AnalyticsController.php",
+        "app/Migrations/2023_09_15_000000_create_user_analytics_table.php",
+        "app/Models/UserAnalytics.php",
+        "app/Routes/api/v1/analytics.php",
+        "app/Views/analytics/index.blade.php"
+      ],
+      "summary": "Installed packages with composer require: - `laravel-analytics` for analytics functionality. - `phpunit/phpunit` for testing. - `filament/filament` for Filament dashboard. - `filament/tables` for Filament tables. - `filament/notifications` for Filament notifications. - `filament/panels` for Filament"
+    },
+    "9": {
+      "files": [
+        "README.md",
+        "app/Controllers/PublicController.php",
+        "app/Installers/DemoInstaller.php",
+        "app/Migrations/public_pages_table.php",
+        "app/Models/PageManifest.php",
+        "app/Tests/PublicControllerTest.php",
+        "app/Views/features.blade.php"
+      ],
+      "summary": "Installed packages with composer require: - `laravel-admin-panel` - `filament/filament` - `filament/filament-panels` - `filament/filament-panels-addons` - `filament/filament-panels-addons-addons` - `filament/filament-panels-addons-addons-addons` - `filament/filament-panels-addons-addons-addons-addon"
+    }
+  },
+  "answers": [],
+  "asked": false,
+  "spec_hash": "31cab44a080281dad571e70740925491474384a2"
+}

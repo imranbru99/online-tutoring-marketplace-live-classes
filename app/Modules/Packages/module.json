@@ -1,0 +1,24 @@
+{
+    "key": "packages",
+    "name": "Packages & Subscriptions",
+    "description": "Lesson bundles, monthly subscriptions, auto-renew, rollover rules, and gift cards.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "bookings"
+    ],
+    "permissions": [
+        "view-packages",
+        "manage-packages"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Packages & Subscriptions",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

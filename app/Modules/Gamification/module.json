@@ -1,0 +1,24 @@
+{
+    "key": "gamification",
+    "name": "Loyalty & Gamification",
+    "description": "Points, badges, streaks, leaderboards, and rewards store.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "students"
+    ],
+    "permissions": [
+        "view-gamification",
+        "manage-gamification"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Loyalty & Gamification",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

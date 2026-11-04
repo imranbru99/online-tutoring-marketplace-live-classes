@@ -1,0 +1,24 @@
+{
+    "key": "wallet",
+    "name": "Wallet & Credits",
+    "description": "Student wallet top-up, tutor earnings wallet, double-entry ledger, and gift cards.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "payments"
+    ],
+    "permissions": [
+        "view-wallet",
+        "manage-wallet"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Wallet & Credits",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

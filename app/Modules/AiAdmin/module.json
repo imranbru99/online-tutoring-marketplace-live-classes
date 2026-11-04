@@ -1,0 +1,24 @@
+{
+    "key": "ai-admin",
+    "name": "AI Admin Tools",
+    "description": "AI moderation of profiles/reviews, off-platform contact detection, and churn prediction.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "core"
+    ],
+    "permissions": [
+        "view-ai-admin",
+        "manage-ai-admin"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "AI Admin Tools",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

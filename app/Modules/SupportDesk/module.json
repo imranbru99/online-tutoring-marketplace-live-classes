@@ -1,0 +1,24 @@
+{
+    "key": "support-desk",
+    "name": "Support Desk & Helpdesk",
+    "description": "Support tickets, SLA tracking, knowledge base, canned replies, and AI reply drafts.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "core"
+    ],
+    "permissions": [
+        "view-support-desk",
+        "manage-support-desk"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Support Desk & Helpdesk",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

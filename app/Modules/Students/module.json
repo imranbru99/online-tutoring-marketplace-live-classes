@@ -1,0 +1,24 @@
+{
+    "key": "students",
+    "name": "Student Management",
+    "description": "Profiles, learning goals, grades, preferred times, timeline, notes, tags, and wishlist.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "core"
+    ],
+    "permissions": [
+        "view-students",
+        "manage-students"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Student Management",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

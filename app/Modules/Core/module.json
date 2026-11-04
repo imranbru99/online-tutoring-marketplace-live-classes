@@ -1,0 +1,22 @@
+{
+    "key": "core",
+    "name": "Core Platform",
+    "description": "Foundation: multi-tenancy, branches, user identities, roles, module manager, settings, localization, and system health.",
+    "version": "1.0.0",
+    "always_enabled": true,
+    "dependencies": [],
+    "permissions": [
+        "view-core",
+        "manage-core"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Core Platform",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

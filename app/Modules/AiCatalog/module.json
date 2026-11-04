@@ -1,0 +1,24 @@
+{
+    "key": "ai-catalog",
+    "name": "AI Catalog & Scraper",
+    "description": "Scrape and normalize educational syllabi, exam schedules, and topic catalogs via laravel-ai-catalog.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "catalog"
+    ],
+    "permissions": [
+        "view-ai-catalog",
+        "manage-ai-catalog"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "AI Catalog & Scraper",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

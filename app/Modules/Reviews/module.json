@@ -1,0 +1,24 @@
+{
+    "key": "reviews",
+    "name": "Reviews & Ratings",
+    "description": "Post-lesson reviews, verified-lesson badges, tutor replies, and SEO schema markup.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "bookings"
+    ],
+    "permissions": [
+        "view-reviews",
+        "manage-reviews"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Reviews & Ratings",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

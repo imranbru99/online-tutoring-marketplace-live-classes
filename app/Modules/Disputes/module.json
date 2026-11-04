@@ -1,0 +1,24 @@
+{
+    "key": "disputes",
+    "name": "Refunds & Disputes",
+    "description": "Dispute opening, evidence upload, moderator resolution, and chargeback tracking.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "payments"
+    ],
+    "permissions": [
+        "view-disputes",
+        "manage-disputes"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Refunds & Disputes",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

@@ -1,0 +1,24 @@
+{
+    "key": "pwa",
+    "name": "Mobile & PWA",
+    "description": "Installable PWA, offline schedule cache, web push, and native app deep links.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "core"
+    ],
+    "permissions": [
+        "view-pwa",
+        "manage-pwa"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Mobile & PWA",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

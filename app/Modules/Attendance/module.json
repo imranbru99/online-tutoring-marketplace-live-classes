@@ -1,0 +1,24 @@
+{
+    "key": "attendance",
+    "name": "Attendance Hub",
+    "description": "Biometric, RFID, face devices (via laravel-attendance-hub), QR check-in, and guardian alerts.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "core"
+    ],
+    "permissions": [
+        "view-attendance",
+        "manage-attendance"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Attendance Hub",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

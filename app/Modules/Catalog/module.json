@@ -1,0 +1,24 @@
+{
+    "key": "catalog",
+    "name": "Subjects & Curriculum Catalog",
+    "description": "Subjects, topics, grade levels, exam boards (IB, GCSE, SAT, HSC, IELTS), and skill tags.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "core"
+    ],
+    "permissions": [
+        "view-catalog",
+        "manage-catalog"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Subjects & Curriculum Catalog",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

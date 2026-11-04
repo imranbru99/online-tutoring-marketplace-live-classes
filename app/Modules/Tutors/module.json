@@ -1,0 +1,24 @@
+{
+    "key": "tutors",
+    "name": "Tutor Management",
+    "description": "Profiles, verification badges, KYC, onboarding wizard, tiers, vacation mode, and universal slug profile URLs.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "core"
+    ],
+    "permissions": [
+        "view-tutors",
+        "manage-tutors"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Tutor Management",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

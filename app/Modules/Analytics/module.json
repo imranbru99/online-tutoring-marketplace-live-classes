@@ -1,0 +1,24 @@
+{
+    "key": "analytics",
+    "name": "Analytics & Reports BI",
+    "description": "GMV, revenue, tutor utilization, retention cohorts, geo heatmap, and CSV/PDF export.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "core"
+    ],
+    "permissions": [
+        "view-analytics",
+        "manage-analytics"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Analytics & Reports BI",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

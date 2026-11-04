@@ -1,0 +1,25 @@
+{
+    "key": "commissions",
+    "name": "Commissions & Payouts",
+    "description": "Tiered commission rules, escrow holding, payout methods (bKash, bank, Wise), and payout PDFs.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "payments",
+        "wallet"
+    ],
+    "permissions": [
+        "view-commissions",
+        "manage-commissions"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Commissions & Payouts",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

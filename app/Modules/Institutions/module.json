@@ -1,0 +1,24 @@
+{
+    "key": "institutions",
+    "name": "Institution & Bulk Management",
+    "description": "School/corporate seat packages, bulk student import, batch allocations, and consolidated billing.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "students"
+    ],
+    "permissions": [
+        "view-institutions",
+        "manage-institutions"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Institution & Bulk Management",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

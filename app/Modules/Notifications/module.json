@@ -1,0 +1,24 @@
+{
+    "key": "notifications",
+    "name": "Notifications Center",
+    "description": "Email, SMS, WhatsApp, Web Push templates, quiet hours, and provider drivers.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "core"
+    ],
+    "permissions": [
+        "view-notifications",
+        "manage-notifications"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Notifications Center",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

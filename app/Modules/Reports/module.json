@@ -1,0 +1,24 @@
+{
+    "key": "reports",
+    "name": "Progress & Learning Plans",
+    "description": "Learning milestones, tutor lesson summaries, term report cards (Unicode PDF), and parent reports.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "students"
+    ],
+    "permissions": [
+        "view-reports",
+        "manage-reports"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Progress & Learning Plans",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

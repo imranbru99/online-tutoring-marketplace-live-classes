@@ -1,0 +1,25 @@
+{
+    "key": "search",
+    "name": "Search & Matching",
+    "description": "Advanced filters, map view, AI tutor matching, job board, and trending subjects.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "tutors",
+        "catalog"
+    ],
+    "permissions": [
+        "view-search",
+        "manage-search"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Search & Matching",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

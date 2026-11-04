@@ -1,0 +1,24 @@
+{
+    "key": "ai-assistant",
+    "name": "AI Study Assistant",
+    "description": "24/7 subject-aware AI tutor chat for students, step-by-step solver, and flashcards.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "core"
+    ],
+    "permissions": [
+        "view-ai-assistant",
+        "manage-ai-assistant"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "AI Study Assistant",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

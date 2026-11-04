@@ -1,0 +1,24 @@
+{
+    "key": "staff-hr",
+    "name": "Staff & HR",
+    "description": "Tutor contracts, onboarding checklist, payroll, payslip PDF, and performance reviews.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "core"
+    ],
+    "permissions": [
+        "view-staff-hr",
+        "manage-staff-hr"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Staff & HR",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

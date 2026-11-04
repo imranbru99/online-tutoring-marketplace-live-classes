@@ -1,0 +1,24 @@
+{
+    "key": "localization",
+    "name": "Multi-Language & RTL",
+    "description": "Bangla, Arabic (RTL), English, Hindi, Urdu, Spanish, French, and AI translation review.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "core"
+    ],
+    "permissions": [
+        "view-localization",
+        "manage-localization"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Multi-Language & RTL",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

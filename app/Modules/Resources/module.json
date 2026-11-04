@@ -1,0 +1,24 @@
+{
+    "key": "resources",
+    "name": "Lesson Notes & Library",
+    "description": "Shared files, homework attachments, tutor worksheet marketplace, and storage quotas.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "core"
+    ],
+    "permissions": [
+        "view-resources",
+        "manage-resources"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Lesson Notes & Library",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

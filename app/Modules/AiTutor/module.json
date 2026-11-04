@@ -1,0 +1,24 @@
+{
+    "key": "ai-tutor",
+    "name": "AI Tutor Tools",
+    "description": "Lesson plan generator, quiz generator, homework feedback drafts, and bio enhancement.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "tutors"
+    ],
+    "permissions": [
+        "view-ai-tutor",
+        "manage-ai-tutor"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "AI Tutor Tools",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

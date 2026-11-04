@@ -1,0 +1,24 @@
+{
+    "key": "guardians",
+    "name": "Guardian / Parent Portal",
+    "description": "Child linkage, approval workflows, payment on behalf, attendance visibility, and monitored chats.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "students"
+    ],
+    "permissions": [
+        "view-guardians",
+        "manage-guardians"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Guardian / Parent Portal",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

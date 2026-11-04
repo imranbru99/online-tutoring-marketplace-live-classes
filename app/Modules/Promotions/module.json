@@ -1,0 +1,24 @@
+{
+    "key": "promotions",
+    "name": "Coupons & Dynamic Pricing",
+    "description": "Coupons, seasonal campaigns, tutor-funded discounts, flash sales, and bundle discounts.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "payments"
+    ],
+    "permissions": [
+        "view-promotions",
+        "manage-promotions"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Coupons & Dynamic Pricing",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

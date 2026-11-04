@@ -1,0 +1,25 @@
+{
+    "key": "courses",
+    "name": "Courses & Programs",
+    "description": "Multi-lesson courses, curriculum builder, drip schedule, prerequisites, and certificates.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "tutors",
+        "catalog"
+    ],
+    "permissions": [
+        "view-courses",
+        "manage-courses"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Courses & Programs",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

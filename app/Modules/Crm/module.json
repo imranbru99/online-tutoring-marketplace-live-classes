@@ -1,0 +1,24 @@
+{
+    "key": "crm",
+    "name": "Marketing & CRM",
+    "description": "Leads, pipeline, email/SMS drip campaigns, abandoned booking recovery, and NPS surveys.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "core"
+    ],
+    "permissions": [
+        "view-crm",
+        "manage-crm"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Marketing & CRM",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

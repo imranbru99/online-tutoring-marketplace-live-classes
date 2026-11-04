@@ -1,0 +1,24 @@
+{
+    "key": "referrals",
+    "name": "Referrals & Affiliates",
+    "description": "Referral codes, credit/cash rewards, affiliate dashboard, tracking links, and payouts.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "core"
+    ],
+    "permissions": [
+        "view-referrals",
+        "manage-referrals"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Referrals & Affiliates",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

@@ -1,0 +1,24 @@
+{
+    "key": "saas-plans",
+    "name": "Plans & SaaS Billing",
+    "description": "Business subscription plans, module gating, minutes/storage metering, and tenant billing.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "core"
+    ],
+    "permissions": [
+        "view-saas-plans",
+        "manage-saas-plans"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Plans & SaaS Billing",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

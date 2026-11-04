@@ -1,0 +1,24 @@
+{
+    "key": "calendar",
+    "name": "Availability & Calendar",
+    "description": "Recurring availability, timezone auto-conversion, exceptions, and iCal/Google sync.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "tutors"
+    ],
+    "permissions": [
+        "view-calendar",
+        "manage-calendar"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Availability & Calendar",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

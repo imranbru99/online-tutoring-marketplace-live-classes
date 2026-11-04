@@ -1,0 +1,24 @@
+{
+    "key": "backups",
+    "name": "Backup & Import/Export",
+    "description": "Scheduled backups, one-click business export, and import wizards for tutors/students.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "core"
+    ],
+    "permissions": [
+        "view-backups",
+        "manage-backups"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Backup & Import/Export",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

@@ -1,0 +1,13 @@
+<?php
+
+declare(strict_types=1);
+
+namespace App\Filament\SuperAdmin\Resources\BusinessResource\Pages;
+
+use App\Filament\SuperAdmin\Resources\BusinessResource;
+use Filament\Resources\Pages\CreateRecord;
+
+class CreateBusiness extends CreateRecord
+{
+    protected static string $resource = BusinessResource::class;
+}

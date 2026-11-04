@@ -1,0 +1,24 @@
+{
+    "key": "compliance",
+    "name": "Trust, Safety & Compliance",
+    "description": "KYC, background checks, profile approval queue, incident log, and minors protection.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "core"
+    ],
+    "permissions": [
+        "view-compliance",
+        "manage-compliance"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Trust, Safety & Compliance",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

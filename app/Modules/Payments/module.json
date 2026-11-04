@@ -1,0 +1,24 @@
+{
+    "key": "payments",
+    "name": "Payment Gateways",
+    "description": "Stripe, PayPal, SSLCommerz, bKash, Nagad, Rocket, Razorpay, Paystack, bank transfer, and wallets.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "core"
+    ],
+    "permissions": [
+        "view-payments",
+        "manage-payments"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Payment Gateways",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

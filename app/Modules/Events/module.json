@@ -1,0 +1,24 @@
+{
+    "key": "events",
+    "name": "Events & Webinars",
+    "description": "Free/paid webinars, workshops, bootcamps, attendance tracking, and replays.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "live-classroom"
+    ],
+    "permissions": [
+        "view-events",
+        "manage-events"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Events & Webinars",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

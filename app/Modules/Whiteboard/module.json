@@ -1,0 +1,24 @@
+{
+    "key": "whiteboard",
+    "name": "Interactive Whiteboard",
+    "description": "Real-time collaborative whiteboard, shapes, text, equation blocks, and PDF/image export.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "live-classroom"
+    ],
+    "permissions": [
+        "view-whiteboard",
+        "manage-whiteboard"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Interactive Whiteboard",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

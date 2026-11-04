@@ -1,0 +1,25 @@
+{
+    "key": "assignments",
+    "name": "Assignments & Homework",
+    "description": "Create, assign, due dates, submissions, rubrics, grading, and AI feedback.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "students",
+        "tutors"
+    ],
+    "permissions": [
+        "view-assignments",
+        "manage-assignments"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Assignments & Homework",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

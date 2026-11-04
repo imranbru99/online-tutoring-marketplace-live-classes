@@ -1,0 +1,24 @@
+{
+    "key": "certificates",
+    "name": "Certificates & Credentials",
+    "description": "Auto-issue on course/test completion, QR verification page, and Unicode PDF generation.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "core"
+    ],
+    "permissions": [
+        "view-certificates",
+        "manage-certificates"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Certificates & Credentials",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

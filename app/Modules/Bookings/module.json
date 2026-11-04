@@ -1,0 +1,26 @@
+{
+    "key": "bookings",
+    "name": "Booking Engine",
+    "description": "1:1 lessons, instant/request booking, trial lessons, recurring series, cancellation policies, and reminders.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "tutors",
+        "students",
+        "calendar"
+    ],
+    "permissions": [
+        "view-bookings",
+        "manage-bookings"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Booking Engine",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

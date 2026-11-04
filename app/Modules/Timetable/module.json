@@ -1,0 +1,24 @@
+{
+    "key": "timetable",
+    "name": "Timetable & Batch Management",
+    "description": "Weekly timetable builder, room allocation, substitute tutors, and timetable PDF.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "tutors"
+    ],
+    "permissions": [
+        "view-timetable",
+        "manage-timetable"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Timetable & Batch Management",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

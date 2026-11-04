@@ -1,0 +1,24 @@
+{
+    "key": "invoicing",
+    "name": "Invoicing, Tax & Accounting",
+    "description": "Invoices, receipts, VAT/GST rules, multilingual PDF in any script, and accounting exports.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "payments"
+    ],
+    "permissions": [
+        "view-invoicing",
+        "manage-invoicing"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Invoicing, Tax & Accounting",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

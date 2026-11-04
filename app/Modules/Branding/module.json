@@ -1,0 +1,24 @@
+{
+    "key": "branding",
+    "name": "White-label & Custom Branding",
+    "description": "Custom domains, logos, colors, custom email senders, and embeddable booking widgets.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "core"
+    ],
+    "permissions": [
+        "view-branding",
+        "manage-branding"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "White-label & Custom Branding",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

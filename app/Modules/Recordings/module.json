@@ -1,0 +1,24 @@
+{
+    "key": "recordings",
+    "name": "Recordings & Replays",
+    "description": "Secure storage, consent capture, signed playback, AI summaries, and download controls.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "live-classroom"
+    ],
+    "permissions": [
+        "view-recordings",
+        "manage-recordings"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Recordings & Replays",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

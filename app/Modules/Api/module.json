@@ -1,0 +1,24 @@
+{
+    "key": "api",
+    "name": "REST API & Webhooks",
+    "description": "Versioned /api/v1 Sanctum tokens, OpenAPI docs, signed webhooks, and third-party integrations.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "core"
+    ],
+    "permissions": [
+        "view-api",
+        "manage-api"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "REST API & Webhooks",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

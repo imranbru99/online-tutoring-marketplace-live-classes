@@ -1,0 +1,24 @@
+{
+    "key": "quizzes",
+    "name": "Quizzes & Assessments",
+    "description": "Question bank (MCQ, short, matching), auto-grading, placement tests, and analytics.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "catalog"
+    ],
+    "permissions": [
+        "view-quizzes",
+        "manage-quizzes"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Quizzes & Assessments",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

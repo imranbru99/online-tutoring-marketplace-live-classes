@@ -1,0 +1,25 @@
+{
+    "key": "group-classes",
+    "name": "Group Classes & Cohorts",
+    "description": "Scheduled group classes, seat limits, min seats to run, waitlist, and cohort pricing.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "tutors",
+        "catalog"
+    ],
+    "permissions": [
+        "view-group-classes",
+        "manage-group-classes"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Group Classes & Cohorts",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}

@@ -1,0 +1,24 @@
+{
+    "key": "messaging",
+    "name": "Messaging & Chat",
+    "description": "Real-time chat, guardian visibility for minors, attachments, and off-platform contact masking.",
+    "version": "1.0.0",
+    "always_enabled": false,
+    "dependencies": [
+        "core"
+    ],
+    "permissions": [
+        "view-messaging",
+        "manage-messaging"
+    ],
+    "settings_schema": [],
+    "public_pages": [],
+    "navigation_items": [
+        {
+            "label": "Messaging & Chat",
+            "icon": "heroicon-o-sparkles"
+        }
+    ],
+    "scheduled_tasks": [],
+    "demo_seeders": []
+}
